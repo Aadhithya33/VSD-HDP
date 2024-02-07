@@ -46,10 +46,4 @@ sudo apt-get install gtkwave
 Below screenshot shows successful installation and launching of gtkwave:
 ![gtwave1](images/gtwave1.png)
 ![gtwave ](images/gtwave2.png)
-## DAY 2
-hh
-dd
-d
-ddd
-
 
