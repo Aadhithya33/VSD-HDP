@@ -1,6 +1,7 @@
 # VSD-Hardware Design program
 This repository contains all the necessary files and steps to implement the RTL-to-GDSII flow.
-### **DAY 0**
+
+## DAY 0
 Install [oracle VM virtual box](https://www.virtualbox.org/wiki/Downloads) and install ubuntu in oracle VM virtual box.
 If system has 16GB RAM and 512GB HDD then allocate 8GB RAM and 100 GB HDD for oracle VM virtual box.
 
@@ -45,3 +46,10 @@ sudo apt-get install gtkwave
 Below screenshot shows successful installation and launching of gtkwave:
 ![gtwave1](images/gtwave1.png)
 ![gtwave ](images/gtwave2.png)
+## DAY 2
+hh
+dd
+d
+dd
+
+
