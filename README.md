@@ -1,5 +1,5 @@
 # VSD-Hardware Design program
-This repository contains all the necessary files and steps to implement the RTL-to-GDSII flow.
+This repository contains all the necessary steps and files to implement the RTL-to-GDSII flow.
 
 
 
