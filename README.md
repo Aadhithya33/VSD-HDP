@@ -2,7 +2,9 @@
 This repository contains all the necessary files and steps to implement the RTL-to-GDSII flow.
 
 [Day 0](#day-0)
-[Day 2](#day-2)
+
+[Day 2](#day-1)
+
 [Day 2](#day-2)
 
 ## DAY 0
@@ -57,5 +59,4 @@ a
 ## DAY 2
 b
 
-## DAY 0
-c
+
