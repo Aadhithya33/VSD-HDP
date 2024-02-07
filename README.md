@@ -30,7 +30,9 @@ sudo make install
 
 Below screenshot shows successful installation and launching of Yosys
 ![image](images/yosysbuild_Succesful.png)
+
 ![image](images/yosysss1.png)
+
 **2.iverilog:**
 Open terminal in ubuntu and use the commands shown below to install iverilog
 ```bash
@@ -39,6 +41,7 @@ sudo apt-get install iverilog
 
 Below screenshot shows successful installation and launching of iverilog:
 ![iverilog](images/iverilog.png)
+
 ![image](images/iverilog2.png)
 
 **3.gtkwave:**
@@ -50,5 +53,6 @@ sudo apt-get install gtkwave
 
 Below screenshot shows successful installation and launching of gtkwave:
 ![gtwave1](images/gtwave1.png)
+
 ![gtwave ](images/gtwave2.png)
 
