@@ -10,7 +10,7 @@ This repository contains all the necessary steps and files to implement the RTL-
 Install [oracle VM virtual box](https://www.virtualbox.org/wiki/Downloads) and install ubuntu in oracle VM virtual box.
 If system has 16GB RAM and 512GB HDD then allocate 8GB RAM and 100 GB HDD for oracle VM virtual box.
 
-**INSTALLATION OF OPEN SOURCE EDA TOOLS (Yosys, iverilog, and, gtwave)** :
+**INSTALLATION OF OPEN SOURCE EDA TOOLS (Yosys, iverilog, and, gtkwave)** :
 
 **1.Yosys**:
 Open terminal in ubuntu and use the commands shown below to install Yosys:
