@@ -17,7 +17,7 @@ make
 sudo make install`
 
 Below screenshot shows successful installation and launching of Yosys
-![image](https://gist.github.com/assets/159117144/75354e06-fd32-4dbd-801e-c81249f2c419)
+![image](yosysss1.png)
 **2.iverilog:**
 Open terminal in ubuntu and use the commands shown below to install iverilog
 `sudo apt-get install iverilog`
