@@ -36,11 +36,11 @@ Below screenshot shows successful installation and launching of iverilog:
 
 **3.gtkwave:**
 
-Open terminal in ubuntu and use the commands shown below to install gtwave:
+Open terminal in ubuntu and use the commands shown below to install gtkwave:
 ```bash
 sudo apt-get install gtkwave
 ```
 
-Below screenshot shows successful installation and launching of gtwave:
+Below screenshot shows successful installation and launching of gtkwave:
 ![gtwave1](images/gtwave1.png)
-![gtwave ](images/gtwave .png)
+![gtwave ](images/gtwave2.png)
