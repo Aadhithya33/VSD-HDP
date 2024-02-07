@@ -50,6 +50,6 @@ Below screenshot shows successful installation and launching of gtkwave:
 hh
 dd
 d
-dd
+ddd
 
 
