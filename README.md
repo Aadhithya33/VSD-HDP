@@ -3,7 +3,7 @@ This repository contains all the necessary files and steps to implement the RTL-
 
 
 
-[Day 0](#day-0)
+[Day 0-Installation of EDA Tools](#day-0)
 
 
 ## DAY 0
