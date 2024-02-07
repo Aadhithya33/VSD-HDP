@@ -1,6 +1,8 @@
 # VSD-Hardware Design program
 This repository contains all the necessary files and steps to implement the RTL-to-GDSII flow.
 
+
+
 [Day 0](#day-0)
 
 
@@ -49,11 +51,4 @@ sudo apt-get install gtkwave
 Below screenshot shows successful installation and launching of gtkwave:
 ![gtwave1](images/gtwave1.png)
 ![gtwave ](images/gtwave2.png)
-
-## DAY 1
-a
-
-## DAY 2
-b
-
 
