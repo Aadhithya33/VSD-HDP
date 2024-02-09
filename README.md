@@ -60,42 +60,44 @@ Below screenshot shows successful installation and launching of gtkwave:
 
 ## DAY 1
 
-**1.** RTL design is implementation of specifications.
+* RTL design is implementation of specifications.
 
-**2.** To check whether the design meets specifications, we need a test bench to test it under different stimulus.
+* To check whether the design meets specifications, we need a test bench to test it under different stimulus.
 
-**3.** We need a tool to check whether the RTL design meets specifications. iverilog is an opensource eda tool which can be used to check the functionality design.
+* We need a tool to check whether the RTL design meets specifications. iverilog is an opensource eda tool which can be used to check the functionality of design.
 
-**4.** The important point is that tool looks for only changes in the input and generates the changes in the output.
+* The important point is that tool looks for only changes in the input and generates the changes in the output.
 
 ## **RTL design and synthesis of two input MUX:**
 
-**.** This [repository](https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git) contains all the verilog codes and its corresponding testbenches.clone the repository to your directory using git clone command.
+* This [repository](https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git) contains all the verilog codes and its corresponding testbenches.clone the repository to your directory using git clone command.
 
 ## **iverilog based simulation flow:**
 
-**.** We have to provide Verilog code and corresponding test bench to the iverilog tool and iverilog tool generates **a.out** file
+* We have to provide Verilog code and corresponding test bench to the iverilog tool and iverilog tool generates **a.out** file
 
 **command to perform above operation**  
 ```bash
 iverilog good_mux.v tb_good_mux.v
 ```
-**.** We need execute **a.out** file using the command shown below:
+* We need to execute **a.out** file using the command shown below:
 
 ```bash
 ./a.out
 ```
-**.** After execution **a.out** file , it is going to dump **VCD**(value change dump) file.
+* After execution **a.out** file , it is going to dump **VCD**(value change dump) file.
 
-**.** We have provide **VCD** file to gtkwave to view the waveform.
+* We have provide **VCD** file to gtkwave to view the waveform.
 
-**.** Command to launch gtkwave is shown below
+* Command to launch gtkwave is shown below
 
 ```bash
 gtkwave tb_good_mux.vcd
 ```
 
+* After executing the above command, you will see a waveform just like the image shown below:
 
+![image](images/gdmux_gtmave.png)
 
 
 
