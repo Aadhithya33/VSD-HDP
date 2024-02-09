@@ -5,6 +5,8 @@ This repository contains all the necessary steps and files to implement the RTL-
 
 [Day 0-Installation of EDA Tools](#day-0)
 
+[Day 1-Introduction to Verilog RTL design and Synthesis](#day-1)
+
 
 ## DAY 0
 Install [oracle VM virtual box](https://www.virtualbox.org/wiki/Downloads) and install ubuntu in oracle VM virtual box.
@@ -55,4 +57,49 @@ Below screenshot shows successful installation and launching of gtkwave:
 ![gtwave1](images/gtwave1.png)
 
 ![gtwave ](images/gtwave2.png)
+
+## DAY 1
+
+**1.** RTL design is implementation of specifications.
+
+**2.** To check whether the design meets specifications, we need a test bench to test it under different stimulus.
+
+**3.** We need a tool to check whether the RTL design meets specifications. iverilog is an opensource eda tool which can be used to check the functionality design.
+
+**4.** The important point is that tool looks for only changes in the input and generates the changes in the output.
+
+## **RTL design and synthesis of two input MUX:**
+
+**.** This [repository](https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git) contains all the verilog codes and its corresponding testbenches.clone the repository to your directory using git clone command.
+
+## **iverilog based simulation flow:**
+
+**.** We have to provide Verilog code and corresponding test bench to the iverilog tool and iverilog tool generates **a.out** file
+
+**command to perform above operation**  
+```bash
+iverilog good_mux.v tb_good_mux.v
+```
+**.** We need execute **a.out** file using the command shown below:
+
+```bash
+./a.out
+```
+**.** After execution **a.out** file , it is going to dump **VCD**(value change dump) file.
+
+**.** We have provide **VCD** file to gtkwave to view the waveform.
+
+**.** Command to launch gtkwave is shown below
+
+```bash
+gtkwave tb_good_mux.vcd
+```
+
+
+
+
+
+
+
+
 
