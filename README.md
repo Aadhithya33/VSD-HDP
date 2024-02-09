@@ -70,11 +70,11 @@ Below screenshot shows successful installation and launching of gtkwave:
 
 ## **RTL design and synthesis of two input MUX:**
 
-* This [repository](https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git) contains all the verilog codes and its corresponding testbenches.clone the repository to your directory using git clone command.
+* This [repository](https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git) contains all the verilog codes and its corresponding testbenches. Now clone the repository to your directory using git clone command.
 
 ## **iverilog based simulation flow:**
 
-* We have to provide Verilog code and corresponding test bench to the iverilog tool and iverilog tool generates **a.out** file
+* We have to provide Verilog code and corresponding test bench to the iverilog tool and the iverilog tool generates **a.out** file
 
 **command to perform above operation**  
 ```bash
@@ -99,7 +99,7 @@ gtkwave tb_good_mux.vcd
 
 ![image](images/gdmux_gtmave.png)
 
-## Synthesis uisng Yosys:
+## Synthesis using Yosys:
 
 * Yosys is an open source eda tools which is used convert RTL code to gate level netlist.
 
