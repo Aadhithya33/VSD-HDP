@@ -99,6 +99,37 @@ gtkwave tb_good_mux.vcd
 
 ![image](images/gdmux_gtmave.png)
 
+## Synthesis uisng Yosys:
+
+* Yosys is an open source eda tools which is used convert RTL code to gate level netlist.
+
+* We have to provide .lib file and verilog code file to the synthesizer **Yosys** . Then it generates a netlist of the verilog code using standard cells in the .lib file 
+
+* .Lib file contains collection of logical modules like all basic gates and different flavours of same gate. We have to use required gate to meet specifications using **SDC** constraints.
+
+* Now launch **Yosys** using the command shown below:
+
+ ```bash
+yosys
+```
+* Now we have to read **.lib** file using the command shown below:
+
+```bash
+read_liberty -lib <path to the lib file>
+```
+* Now we have to read **verilog** file using the command shown below:
+
+```bash
+read_verilog good_mux.v
+```
+* After executing the above command you should get a message saying that **successfully finished verilog frontend**.
+
+* Now synthesis can be performed using the command shown below:
+
+```bash
+synth -top good_mux
+```
+
 
 
 
