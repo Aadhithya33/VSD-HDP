@@ -153,7 +153,7 @@ write_verilog good_mux_netlist.v
 
 ![image](images/notsweetnetlist.png)
 
-* The command to write the netlist which is more clear than the previous one ,then use the following command:
+* To write the netlist which is more clear than the previous one ,then use the following command:
 
  ```bash
 write_verilog -noattr good_mux_netlist.v
