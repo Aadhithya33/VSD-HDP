@@ -87,7 +87,7 @@ iverilog good_mux.v tb_good_mux.v
 ```
 * After execution **a.out** file , it is going to dump **VCD**(value change dump) file.
 
-* We have provide **VCD** file to gtkwave to view the waveform.
+* We have to provide **VCD** file to gtkwave to view the waveform.
 
 * Command to launch gtkwave is shown below
 
@@ -115,7 +115,7 @@ yosys
 * Now we have to read **.lib** file using the command shown below:
 
 ```bash
-read_liberty -lib <path to the lib file>
+read_liberty -lib <path to the .lib file>
 ```
 * Now we have to read **verilog** file using the command shown below:
 
@@ -129,6 +129,36 @@ read_verilog good_mux.v
 ```bash
 synth -top good_mux
 ```
+* To generate the netlist use the command shown below:
+* 
+```bash
+abc -liberty <path to .lib file>
+``` 
+* To see the logic it has realized to generate the netlist use the command shown below:
+
+```bash
+show
+```
+* 2-input mux is realized like this:
+
+![image](images/synshow.png)
+
+* The command to write the netlist is shown below:
+
+ ```bash
+write_verilog good_mux_netlist.v
+```
+
+*netlist looks like this 
+
+![image](images/notsweetnetlist.png)
+
+* The command to write the netlist which is more clear than the previous one ,then use the following command:
+
+ ```bash
+write_verilog -noattr good_mux_netlist.v
+```
+
 
 
 
