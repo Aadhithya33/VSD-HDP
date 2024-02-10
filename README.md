@@ -130,7 +130,7 @@ read_verilog good_mux.v
 synth -top good_mux
 ```
 * To generate the netlist use the command shown below:
-* 
+ 
 ```bash
 abc -liberty <path to .lib file>
 ``` 
@@ -149,7 +149,7 @@ show
 write_verilog good_mux_netlist.v
 ```
 
-*netlist looks like this 
+* netlist looks like this 
 
 ![image](images/notsweetnetlist.png)
 
