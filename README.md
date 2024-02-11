@@ -7,6 +7,8 @@ This repository contains all the necessary steps and files to implement the RTL-
 
 [Day 1-Introduction to Verilog RTL design and Synthesis](#day-1)
 
+[Day 2-Timing libs, hierarchical vs flat synthesis and efficient flop coding styles](#day-2)
+
 
 ## DAY 0
 Install [oracle VM virtual box](https://www.virtualbox.org/wiki/Downloads) and install ubuntu in oracle VM virtual box.
@@ -60,6 +62,7 @@ Below screenshot shows successful installation and launching of gtkwave:
 
 ## DAY 1
 
+    
 * RTL design is implementation of specifications.
 
 * To check whether the design meets specifications, we need a test bench to test it under different stimulus.
@@ -67,6 +70,8 @@ Below screenshot shows successful installation and launching of gtkwave:
 * We need a tool to check whether the RTL design meets specifications. iverilog is an opensource eda tool which can be used to check the functionality of design.
 
 * The important point is that tool looks for only changes in the input and generates the changes in the output.
+  
+
 
 ## **RTL design and synthesis of two input MUX:**
 
@@ -158,6 +163,20 @@ write_verilog good_mux_netlist.v
  ```bash
 write_verilog -noattr good_mux_netlist.v
 ```
+
+## DAY 2
+
+<details>
+    
+<summary>1.Timings Libs</summary>
+
+* Timing Libs contains different type of gates.
+
+    
+</details>
+
+
+
 
 
 
