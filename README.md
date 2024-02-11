@@ -222,6 +222,17 @@ write_verilog -noattr good_mux_netlist.v
 * From the above image you can notice that heirarchy is flattened.
     
 </details>
+<details>
+<summary>2c.Sub module synthesis</summary>
+
+* Sub module synthesis is used when we have multiple instances of same module.
+* It is also used when we have massive design. In this scenario synthesis tool uses **divide and conquer** method.
+* By using command **synth -top submodule1** we can synthesis only submodule1. whereas in previous case we have synthesized entire multiple_modules.
+* Below image shows the netlist of submodule1.
+ 
+![image](images/submodule.png)
+
+</details>
     
 </details>
 
