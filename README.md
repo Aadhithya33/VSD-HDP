@@ -236,6 +236,18 @@ write_verilog -noattr good_mux_netlist.v
     
 </details>
 
+<details>
+<summary>3.Efficient flop coding styles</summary>
+    
+ **WHY FLOPS**
+    
+* If we just use combinational circuits then we encounter glitches.To avoid glitches we need flops in between combinational circuits.
+* In flipflops we can have asynchronous set, asynchronous reset, synchronous set and, synchronous reset.
+
+
+    
+</details>
+
 
 
 
