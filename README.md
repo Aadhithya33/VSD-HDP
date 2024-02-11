@@ -172,8 +172,61 @@ write_verilog -noattr good_mux_netlist.v
 
 * Timing Libs contains different type of gates.
 
+![image](images/day21.png)
+
+* In the above image you can notice the library **sky130_fd_sc_hd_tt_025C_1v80**. tt refers to typical process, 025c refers to temperature and, 1v80 refers to voltage. We want the chip to work correctly irrespective of process, voltage and, temperture.
+
+![image](images/day22.png)
+
+* In the above image you can notice different leakage power for same gate for different combinations of input. Similarly .lib file contains many combinations of same cells and their properties.
+
+
+
     
 </details>
+
+<details>
+<summary>2.Hierarchical vs flat synthesis</summary>
+
+<details>
+    
+<summary>2a.Hierarchical</summary>
+
+* To understand the difference between hierarchical vs flat synthesis.Let's consider a multiple_modules.v (this verilog code is present in **../sky130RTLDesignAndSynthesisWorkshop/verilog_files**).
+
+![image](images/day23.png)
+
+* From the above verilog code we can easily see that it contains OR gate(sub_module2) and AND gate(sub_module1) and these are instantiated in the multliple_modules block.
+
+* After synthesis, the netlist contains same submodules which are instantiated in the multiple_modules.
+![image](images/day25.png) 
+
+* But **or** gate is implemented using Nand gate and inverters. Because nand gate contains stacked nmos transistors and synthesis tool did because stacked pmos transistors are not recommended because if we want to implement using PMOS stack then we need increase size of pmos stack to compensate for the less mobility.
+
+* You can observe that in the image shown below.
+
+![image](images/day26.png)
+
+</details>
+<details>
+<summary>2b.Flat synthesis</summary>
+
+* In heirarchical synthesis heirarchy is preserved whereas in flat synthesis heirarchy is flattened.
+* To view flat synthesis netlist use command **flatten** then type the command **show**. Then you will get a netlist for the multiple_modules.v code.
+* Netlist is shown below.
+ 
+![image](images/day27.png)
+
+![image](images/day28.png)
+
+* From the above image you can notice that heirarchy is flattened.
+    
+</details>
+    
+</details>
+
+
+
 
 
 
