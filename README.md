@@ -13,8 +13,9 @@ This repository contains all the necessary steps and files to implement the RTL-
 ## DAY 0
 Install [oracle VM virtual box](https://www.virtualbox.org/wiki/Downloads) and install ubuntu in oracle VM virtual box.
 If system has 16GB RAM and 512GB HDD then allocate 8GB RAM and 100 GB HDD for oracle VM virtual box.
-
-**INSTALLATION OF OPEN SOURCE EDA TOOLS (Yosys, iverilog, and, gtkwave)** :
+<details>
+    
+<summary>**INSTALLATION OF OPEN SOURCE EDA TOOLS (Yosys, iverilog, and, gtkwave)</summary>
 
 **1.Yosys**:
 Open terminal in ubuntu and use the commands shown below to install Yosys:
@@ -60,6 +61,8 @@ Below screenshot shows successful installation and launching of gtkwave:
 
 ![gtwave ](images/gtwave2.png)
 
+</details>
+
 ## DAY 1
 
     
@@ -76,8 +79,8 @@ Below screenshot shows successful installation and launching of gtkwave:
 ## **RTL design and synthesis of two input MUX:**
 
 * This [repository](https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git) contains all the verilog codes and its corresponding testbenches. Now clone the repository to your directory using git clone command.
-
-## **iverilog based simulation flow:**
+<details>
+ <summary>iverilog based simulation flow</summary>
 
 * We have to provide Verilog code and corresponding test bench to the iverilog tool and the iverilog tool generates **a.out** file
 
@@ -104,7 +107,10 @@ gtkwave tb_good_mux.vcd
 
 ![image](images/gdmux_gtmave.png)
 
-## Synthesis using Yosys:
+</details>
+
+<details>
+<summary>Synthesis using Yosys:</summary>
 
 * Yosys is an open source eda tools which is used convert RTL code to gate level netlist.
 
@@ -163,6 +169,8 @@ write_verilog good_mux_netlist.v
  ```bash
 write_verilog -noattr good_mux_netlist.v
 ```
+
+</details>
 
 ## DAY 2
 
@@ -247,23 +255,23 @@ write_verilog -noattr good_mux_netlist.v
 <details>
     <summary>3a.DFF_asynchronous reset</summary>
 
-**commands to perform simulation:**
+* commands to perform simulation:
 
 ```bash
-iverilog dff_asyncresv.v tb_dff_asyncres.v
+iverilog dff_asyncres.v tb_dff_asyncres.v
 ./a.out
-gtkwave tb_dff_asyncresv.vcd
+gtkwave tb_dff_asyncres.vcd
 ```
 * Simulation of dff_asyncres.v is shown below:
 
 ![image](images/asynreset.png)
 
-**commands to perform synthesis:**
+* commands to perform synthesis:
 
-*If we have flops in our design then we have to use one extra command in yosys .That is **dfflibmap** .
+* If we have flops in our design then we have to use one extra command in yosys .That is **dfflibmap** .
 
 ```bash
-read_verilog dff_asynres.v
+read_verilog dff_asyncres.v
 read_liberty -lib <path to lib file>
 synth -top dff_asyncres
 dfflibmap -liberty <path to lib file>
@@ -272,11 +280,84 @@ write_verilog -noattr dff_asyncres_netlist.v
 show
 ```
 * Synthesis of dff_asyncres.v is shown below.
-* 
+  
 ![image](images/asyncres_show.png)
   
     
 </details>
+
+<details>
+    <summary>3b.DFF_asynchronous set</summary>
+
+* commands to perform simulation:
+
+```bash
+iverilog dff_async_set.v tb_dff_async_set.v
+./a.out
+gtkwave tb_dff_async_set.vcd
+```
+* Simulation of dff_async_set.v is shown below:
+
+![image](images/asynset.png)
+
+* commands to perform synthesis:
+
+* If we have flops in our design then we have to use one extra command in yosys .That is **dfflibmap** .
+
+```bash
+read_verilog dff_async_set.v
+read_liberty -lib <path to lib file>
+synth -top dff_async_set
+dfflibmap -liberty <path to lib file>
+abc -liberty <path to lib file>
+write_verilog -noattr dff_async_set_netlist.v
+show
+```
+* Synthesis of dff_async_set.v is shown below.
+  
+![image](images/async_Set_show.png)
+  
+    
+</details>
+
+
+
+
+<details>
+    <summary>3c.DFF_synchronous reset</summary>
+
+* commands to perform simulation:
+
+```bash
+iverilog dff_syncres.v tb_dff_syncres.v
+./a.out
+gtkwave tb_dff_syncres.vcd
+```
+* Simulation of dff_syncres.v is shown below:
+
+![image](images/syncres.png)
+
+* commands to perform synthesis:
+
+* If we have flops in our design then we have to use one extra command in yosys .That is **dfflibmap** .
+
+```bash
+read_verilog dff_syncres.v
+read_liberty -lib <path to lib file>
+synth -top dff_syncres
+dfflibmap -liberty <path to lib file>
+abc -liberty <path to lib file>
+write_verilog -noattr dff_syncres_netlist.v
+show
+```
+* Synthesis of dff_syncres.v is shown below.
+  
+![image](images/syncres_show.png)
+  
+    
+</details>
+
+
 
 
     
