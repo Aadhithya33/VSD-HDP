@@ -405,7 +405,7 @@ show
 * Boolean Logic Optimization(K-Map,Quine McKluskey)
   
 **CONSTANT PROPAGATION: EXAMPLE**
-![image](images/mul8_show.png)
+![image](day3_4/IMG_1625.jpg)
   
 </details>
 
