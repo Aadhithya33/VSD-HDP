@@ -593,6 +593,36 @@ show
 
 <details>
     <summary>2.Labs on GLS and Synthesis-Simulation Mismatch</summary>
+
+<details>
+    <summary>2a.GLS of MUX using ternary operator</summary>
+    
+* As you can see there is no simulation mismatch as we are using ternary operator
+* RTL simulation
+![image](day3_4/ternary_verilog.png)
+
+* GLS
+![image](day3_4/ternary_gls_mux.png)
+
+
+        
+</details>
+
+<details>
+    <summary>2b.GLS of bad mux</summary>
+    
+* As you can see there is simulation mismatch because of **missing sensitivity list**
+* RTL simulation 
+![image](day3_4/badmux_verilog.png)
+
+* GLS
+![image](day3_4/badmux_gls.png)
+
+
+        
+</details>
+
+
 </details>
 
 
