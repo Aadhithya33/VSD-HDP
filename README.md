@@ -17,7 +17,7 @@ Install [oracle VM virtual box](https://www.virtualbox.org/wiki/Downloads) and i
 If system has 16GB RAM and 512GB HDD then allocate 8GB RAM and 100 GB HDD for oracle VM virtual box.
 <details>
     
-<summary>**INSTALLATION OF OPEN SOURCE EDA TOOLS (Yosys, iverilog, and, gtkwave)</summary>
+<summary>INSTALLATION OF OPEN SOURCE EDA TOOLS (Yosys, iverilog, and, gtkwave)</summary>
 
 **1.Yosys**:
 Open terminal in ubuntu and use the commands shown below to install Yosys:
