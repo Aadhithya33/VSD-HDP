@@ -581,13 +581,18 @@ show
 </details>
 <details>
     <summary>1b.Synthesis Simulation Mismatch</summary>
+    
+* Synthesis Simulation Mismatch can be caused due to **missing sensitivity list**, **blocking vs non-blocking assignments**, and **non standard verilog coding**.
+
 
 
 </details>
 
 
+</details>
 
-
+<details>
+    <summary>2.Labs on GLS and Synthesis-Simulation Mismatch</summary>
 </details>
 
 
