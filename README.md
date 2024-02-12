@@ -363,6 +363,16 @@ show
     
 </details>
 
+<details>
+    <summary>4.Interesting Optimizations</summary>
+    
+## Multiplication by 2:
+* If a n bit number is to be multiplied by 2 then the resulting number will be same number concatenated by a zero at the LSB side.
+* To verify this we have to perform synthesis and observe the netlist.
+* 
+
+</details>
+
 
 
 
