@@ -499,10 +499,21 @@ show
 
 <details>
     <summary>3d.DFF_const4</summary>
+
+* Simulation shows that output of flipflop is constant irrespective of clk ,reset
+![image](day3_4/dffconst4.png)
+
+![image](day3_4/dffconst4_show.png)
 </details>
 
 <details>
     <summary>3e.DFF_const5</summary>
+
+* Simulation shows that output of flipflop is not constant irrespective of clk ,reset and set
+    
+![image](day3_4/dffconst5.png)
+
+![image](day3_4/dffconst5_show.png)
 </details>
 
 
