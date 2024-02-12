@@ -239,10 +239,24 @@ write_verilog -noattr good_mux_netlist.v
 <details>
 <summary>3.Efficient flop coding styles</summary>
     
- **WHY FLOPS**
+ **WHY FLOPS?**
     
 * If we just use combinational circuits then we encounter glitches.To avoid glitches we need flops in between combinational circuits.
 * In flipflops we can have asynchronous set, asynchronous reset, synchronous set and, synchronous reset.
+
+<details>
+    <summary>3a.DFF_asynchronous reset</summary>
+
+**commands to perform simulation**
+```bash
+iverilog dff_asyncresv.v tb_dff_asyncresv.v
+./a.out
+gtkwave tb_dff_asyncresv.vcd
+```
+* Simulation of dff_asyncres.v is shown below:
+  
+    
+</details>
 
 
     
