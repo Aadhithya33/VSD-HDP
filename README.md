@@ -454,15 +454,47 @@ show
 
 <details>
     <summary>3a.DFF_const1</summary>
+
+* Simulation shows that output of flipflop is not constant irrespective of clk ,reset
+
+![image](day3_4/dfconst1.png)
+
+* Observe that stats contains flipflop because as **q** is not constant. whenever q is not constant we can not optimize it.
+
+![image](day3_4/dfconst1_wire.png)
+
+![image](day3_4/dfconst1_show.png)
+
 </details>
 
 
 <details>
     <summary>3a.DFF_const2</summary>
+
+* Simulation shows that output of flipflop is constant irrespective of clk ,reset
+  
+![image](day3_4/dfconst2.png)
+
+* Observe that stats contains flipflop because as **q** is constant. whenever q is constant we can optimize it.
+  
+![image](day3_4/dff_const2_wire.png)
+
+![image](day3_4/df_const_show.png)
+
 </details>
 
 <details>
     <summary>3a.DFF_const3</summary>
+    
+* Simulation shows that output of flipflop is not constant irrespective of clk ,reset and set
+    
+![image](day3_4/dffconst3.png)
+
+* Synthesis shows that flops can not be optimized in this case as Q,Q1 is not constant.
+
+![image](day3_4/df_const3_show.png)
+
+
 </details>
 
 <details>
