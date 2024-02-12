@@ -522,7 +522,32 @@ show
 
 <details>
     <summary>4.Sequential optimizations for unused outputs</summary>
+
+* If outputs are not going to be having a direct role in determining primary outputs of modules. Then all those intermediate outputs will be optimized away.
+
+<details>
+    <summary>4a.counter_opt</summary>
+* This is the case where primary outputs of modules are not dependent on intermediate outputs. so the logic related to the intermediate outputs is optimized.
+
+![image](day3_4/verilogcounter.png)
+
+![image](day3_4/infering.png)
+
+![image](day3_4/infer_show.png)
+
+</details>
+
+<details>
+    <summary>4b.counter_opt(different_version)</summary>
     
+* This is the case where primary outputs of modules are dependent on intermediate outputs. so the logic related to the intermediate outputs can not be optimized.
+
+![image](day3_4/verilogcount3.png)
+
+![image](day3_4/notinfer_show.png)
+</details>
+
+        
 </details>
 
 
