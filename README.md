@@ -602,6 +602,13 @@ show
 ![image](day3_4/ternary_verilog.png)
 
 * GLS
+* command to perform **GLS**
+
+```bash
+iverilog  ../mylib/verilog_model/primitives.v  ../mylib/verilog_model/sky130_fd_sc_hd__tt_025C_1v80.lib  ternary_operator_mux_net.v tb_ternary_operator_mux.v
+./a.out
+```
+
 ![image](day3_4/ternary_gls_mux.png)
 
 
@@ -623,6 +630,13 @@ show
 </details>
 
 
+</details>
+
+<details>
+    <summary>3.Labs on synthesis simulation mismatch for blocking statement</summary>
+
+
+    
 </details>
 
 
