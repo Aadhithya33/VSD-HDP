@@ -11,6 +11,8 @@ This repository contains all the necessary steps and files to implement the RTL-
 
 [Day 3-Combinational and sequential optimizations](#day-3)
 
+[Day 4-GLS,blocking vs non-blocking and Synthesis-Simulation mismatch](#day-4)
+
 
 ## DAY 0
 Install [oracle VM virtual box](https://www.virtualbox.org/wiki/Downloads) and install ubuntu in oracle VM virtual box.
@@ -549,6 +551,8 @@ show
 
         
 </details>
+
+## DAY 4
 
 
 
