@@ -369,7 +369,25 @@ show
 ## Multiplication by 2:
 * If a n bit number is to be multiplied by 2 then the resulting number will be same number concatenated by a zero at the LSB side.
 * To verify this we have to perform synthesis and observe the netlist.
-* 
+* Netlist shown below confirms our observation
+
+![image](images/mul2netlist.png)
+
+* Netlist view is shown below
+
+![image](images/nocellsreqy.png) 
+
+![image](images/mul2_show.png)
+
+## Multiplication by 9:
+
+* Lets assume there is one 3 bit number a[2:0] and one 6 bit number y[5:0]. If we want to perform the operation y =a*9 then we can split it into a * 8 + a *1. where a *8 is nothing but a000 from the observation we did in multiplication by 2. Now we have add a to a000 ,so the resulting expression becomes aa.
+* To verify this we have to perform synthesis and observe the netlist.
+* Netlist view is shown below
+
+ ![image](images/mul8_show.png)
+
+ * From mul2 and mul9 ,what we can observe is that these operations does not require any hardware, only wires are enough.
 
 </details>
 
