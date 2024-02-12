@@ -428,15 +428,22 @@ show
 * To perform optimization we need to use one more command after **synth -top modulename** that command is **opt_clean -purge**.
 <details>
     <summary>2a.Optimization-check1</summary>
+
+![image](images/opt_check.png)
 </details>
 <details>
     <summary>2b.Optimization-check2</summary>
+
+![image](images/opt_check2.png)
 </details>
 <details>
     <summary>2c.Optimization-check3</summary>
+
+![image](images/opt_check3.png)
 </details>
 <details>
     <summary>2d.Optimization-check4</summary>
+![image](images/opt_check4.png)
 </details>
     
 </details>
