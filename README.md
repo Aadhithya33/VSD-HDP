@@ -635,6 +635,15 @@ iverilog  ../mylib/verilog_model/primitives.v  ../mylib/verilog_model/sky130_fd_
 <details>
     <summary>3.Labs on synthesis simulation mismatch for blocking statement</summary>
 
+* RTL simulation
+  
+![image](day3_4/blockingver.png)
+
+* GLS
+  
+![image](day3_4/blockingGLS.png)
+
+* Clearly we can see mismatch between **RTL** and **GLS** 
 
     
 </details>
