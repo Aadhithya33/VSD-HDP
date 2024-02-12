@@ -451,6 +451,36 @@ show
 
 <details>
     <summary>3.Sequential Logic Optimizations</summary>
+
+<details>
+    <summary>3a.DFF_const1</summary>
+</details>
+
+
+<details>
+    <summary>3a.DFF_const2</summary>
+</details>
+
+<details>
+    <summary>3a.DFF_const3</summary>
+</details>
+
+<details>
+    <summary>3a.DFF_const4</summary>
+</details>
+
+<details>
+    <summary>3a.DFF_const5</summary>
+</details>
+
+
+<details>
+    <summary>3a.DFF_const1</summary>
+</details>
+
+<details>
+    <summary>3a.DFF_const1</summary>
+</details>
     
 </details>
 
