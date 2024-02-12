@@ -469,13 +469,13 @@ show
 
 
 <details>
-    <summary>3a.DFF_const2</summary>
+    <summary>3b.DFF_const2</summary>
 
 * Simulation shows that output of flipflop is constant irrespective of clk ,reset
   
 ![image](day3_4/dfconst2.png)
 
-* Observe that stats contains flipflop because as **q** is constant. whenever q is constant we can optimize it.
+* Observe that stats contains no flipflop because as **q** is constant. whenever q is constant we can optimize it.
   
 ![image](day3_4/dff_const2_wire.png)
 
@@ -484,7 +484,7 @@ show
 </details>
 
 <details>
-    <summary>3a.DFF_const3</summary>
+    <summary>3c.DFF_const3</summary>
     
 * Simulation shows that output of flipflop is not constant irrespective of clk ,reset and set
     
@@ -498,20 +498,20 @@ show
 </details>
 
 <details>
-    <summary>3a.DFF_const4</summary>
+    <summary>3d.DFF_const4</summary>
 </details>
 
 <details>
-    <summary>3a.DFF_const5</summary>
+    <summary>3e.DFF_const5</summary>
 </details>
 
 
 <details>
-    <summary>3a.DFF_const1</summary>
+    <summary>3f.DFF_const1</summary>
 </details>
 
 <details>
-    <summary>3a.DFF_const1</summary>
+    <summary>3g.DFF_const1</summary>
 </details>
     
 </details>
