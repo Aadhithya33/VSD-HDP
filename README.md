@@ -406,6 +406,19 @@ show
   
 **CONSTANT PROPAGATION: EXAMPLE**
 ![image](day3_4/IMG_1625.jpg)
+
+**Boolean Logic Optimisation**
+![image](day3_4/IMG_1626.jpg)
+
+## Sequential Logic Optimizations
+
+* Basic optimization(Sequential Constant Propagation)
+
+![image](day3_4/IMG_1627.jpg)
+
+* Advanced optimizations(state optimization,retiming, and, sequential logic cloning(floorplan aware synthesis))
+
+![image](day3_4/IMG_1625.jpg)
   
 </details>
 
