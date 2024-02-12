@@ -429,22 +429,22 @@ show
 <details>
     <summary>2a.Optimization-check1</summary>
 
-![image](images/day3_4/opt_check.png)
+![image](day3_4/opt_check.png)
 </details>
 <details>
     <summary>2b.Optimization-check2</summary>
 
-![image](images/day3_4/opt_check2.png)
+![image](day3_4/opt_check2.png)
 </details>
 <details>
     <summary>2c.Optimization-check3</summary>
 
-![image](images/day3_4/opt_check3.png)
+![image](day3_4/opt_check3.png)
 </details>
 <details>
     <summary>2d.Optimization-check4</summary>
     
-![image](images/day3_4/opt_check4.png)
+![image](day3_4/opt_check4.png)
 </details>
     
 </details>
