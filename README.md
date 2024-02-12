@@ -554,6 +554,42 @@ show
 
 ## DAY 4
 
+<details>
+    <summary>1.GLS, Synthesis-Simulation mismatch</summary>
+    
+ <details>   
+    <summary>1a.GLSConcepts and flow using IVERILOG</summary> 
+     
+**What is GLS?**
+
+* Running the test bench with Netlist as Design Under Test
+* Netlist is logically same as RTL code. So, same test bench will align with the Design.
+
+**Why GLS**
+
+* Verify the logical correctness of design after synthesis
+* Ensuring the timing of the design is met. For this GLS needs to be run with delay annotation(Advanced topic)
+  
+**GLS using IVERILOG**
+
+* we have to provide **design** (netlist), **Gate level verilog Models**, and **Test bench** to iverilog tool and it will generate **vcd** file and using gtkwave tool and vcd file we can view the waveform
+
+**NOTE**:
+
+* If the gate level models are delay annotated, then we can use GLS for timing Validation.
+
+</details>
+<details>
+    <summary>1b.Synthesis Simulation Mismatch</summary>
+
+
+</details>
+
+
+
+
+</details>
+
 
 
 
