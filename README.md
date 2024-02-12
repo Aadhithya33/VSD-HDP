@@ -247,13 +247,33 @@ write_verilog -noattr good_mux_netlist.v
 <details>
     <summary>3a.DFF_asynchronous reset</summary>
 
-**commands to perform simulation**
+**commands to perform simulation:**
+
 ```bash
-iverilog dff_asyncresv.v tb_dff_asyncresv.v
+iverilog dff_asyncresv.v tb_dff_asyncres.v
 ./a.out
 gtkwave tb_dff_asyncresv.vcd
 ```
 * Simulation of dff_asyncres.v is shown below:
+
+![image](images/asynreset.png)
+
+**commands to perform synthesis:**
+
+*If we have flops in our design then we have to use one extra command in yosys .That is **dfflibmap** .
+
+```bash
+read_verilog dff_asynres.v
+read_liberty -lib <path to lib file>
+synth -top dff_asyncres
+dfflibmap -liberty <path to lib file>
+abc -liberty <path to lib file>
+write_verilog -noattr dff_asyncres_netlist.v
+show
+```
+* Synthesis of dff_asyncres.v is shown below.
+* 
+![image](images/asyncres_show.png)
   
     
 </details>
