@@ -9,6 +9,8 @@ This repository contains all the necessary steps and files to implement the RTL-
 
 [Day 2-Timing libs, hierarchical vs flat synthesis and efficient flop coding styles](#day-2)
 
+[Day 3-Combinational and sequential optimizations](#day-3)
+
 
 ## DAY 0
 Install [oracle VM virtual box](https://www.virtualbox.org/wiki/Downloads) and install ubuntu in oracle VM virtual box.
@@ -389,6 +391,22 @@ show
 
  * From mul2 and mul9 ,what we can observe is that these operations does not require any hardware, only wires are enough.
 
+</details>
+
+## DAY 3
+
+<details>
+    <summary>1.Introduction to optimizations</summary>
+    
+## Combinational Logic Optimization
+
+* squeezing the logic to get the most optimized design (Area and Power savings)
+* Constant Propagation(Direct optimization)
+* Boolean Logic Optimization(K-Map,Quine McKluskey)
+  
+**CONSTANT PROPAGATION: EXAMPLE**
+![image](images/mul8_show.png)
+  
 </details>
 
 
