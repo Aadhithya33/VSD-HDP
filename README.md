@@ -653,7 +653,12 @@ iverilog  ../mylib/verilog_model/primitives.v  ../mylib/verilog_model/sky130_fd_
 ## DAY 5
 
 <details>
-    <summary></summary>
+    <summary>1.Introduction to RISC-V basic keywords</summary>
+
+* If we want to execute a c program then it is first converted into assembly level language then into machine level langauage. Computer understands machine level language and executes the program.
+* RISC-V instruction set architecture (ISA) is a language of the computer. Using riscv isa we can talk to the computer. As I mentioned previously ,c program compiles into assembly level language where that assembly level language is RISC-V assembly language.
+* RISC-V architecture is implemented using RTL and from RTL to Layout it is nothing but typical **RTL2GDS** flow.
+    
 </details>
 
 
