@@ -677,6 +677,12 @@ iverilog  ../mylib/verilog_model/primitives.v  ../mylib/verilog_model/sky130_fd_
 
 This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh) contains commands to install riscv isa simulator and gcc compiler toolchain.
 
+* We have to compile the code sum1ton.c using riscv compiler
+* command to compile is **riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c**
+* To view the assembly language for this c program , the command is **riscv64-unknown-elf-objdump -d sum1ton.o | less**
+* 
+![image](day3_4/Screenshot4.png)
+
 
 </details>
 
