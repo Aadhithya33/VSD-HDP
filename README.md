@@ -668,7 +668,16 @@ iverilog  ../mylib/verilog_model/primitives.v  ../mylib/verilog_model/sky130_fd_
 
 <details>
     <summary>2.Labwork for RISC-V software toolchain</summary>
-    
+
+## Program to compute sum from 1 to n:
+
+![image](day3_4/Screenshot3.png)
+
+## RISCV GCC Compile and Disassemble:
+
+This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh) contains commands to install riscv isa simulator and gcc compiler toolchain.
+
+
 </details>
 
 
