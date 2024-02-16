@@ -658,6 +658,11 @@ iverilog  ../mylib/verilog_model/primitives.v  ../mylib/verilog_model/sky130_fd_
 * If we want to execute a c program then it is first converted into assembly level language then into machine level langauage. Computer understands machine level language and executes the program.
 * RISC-V instruction set architecture (ISA) is a language of the computer. Using riscv isa we can talk to the computer. As I mentioned previously ,c program compiles into assembly level language where that assembly level language is RISC-V assembly language.
 * RISC-V architecture is implemented using RTL and from RTL to Layout it is nothing but typical **RTL2GDS** flow.
+* Below image shows how a program is implemented in the hardware
+
+* ![image](day3_4/Screenshot (2277).png)
+* ![image](day3_4/Screenshot (2278).png)
+
     
 </details>
 
