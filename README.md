@@ -663,7 +663,11 @@ iverilog  ../mylib/verilog_model/primitives.v  ../mylib/verilog_model/sky130_fd_
 ![image](day3_4/Screenshot1.png)
 
 ![image](day3_4/Screenshot2.png)
+    
+</details>
 
+<details>
+    <summary>2.Labwork for RISC-V software toolchain</summary>
     
 </details>
 
