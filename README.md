@@ -680,8 +680,19 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 * We have to compile the code sum1ton.c using riscv compiler
 * command to compile is **riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c**
 * To view the assembly language for this c program , the command is **riscv64-unknown-elf-objdump -d sum1ton.o | less**
-* 
+  
 ![image](day3_4/Screenshot4.png)
+
+* If we use the Ofast instead of O1 then the number of instructions in assembly will reduce.
+* command **riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c**
+* Below Image shows that number of instructions are reduced from 15 to 12.
+
+![image](day3_4/Screenshot5.png) 
+
+
+## Spike simulation and debug:
+
+
 
 
 </details>
