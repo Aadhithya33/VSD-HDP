@@ -810,6 +810,15 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 <details>
     <summary>1d.Concluding 32-registers and their respective ABI names</summary>
+
+![image](day6/Screenshot15.png)
+
+![image](day6/Screenshot16.png)
+
+![image](day6/Screenshot17.png)
+
+![image](day6/Screenshot18.png)
+
 </details>
 
 </details>
