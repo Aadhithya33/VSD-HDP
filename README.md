@@ -790,7 +790,24 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 ![image](day6/Screenshot8.png)
     
 </details>
+
+<details>
+    <summary>1c.Load,Add and Store instructions with example</summary>
+
+![image](day6/Screenshot9.png)
+
+![image](day6/Screenshot10.png)
+
+![image](day6/Screenshot11.png)
+
+![image](day6/Screenshot12.png)
+
+![image](day6/Screenshot13.png)
+
+![image](day6/Screenshot14.png)
     
+</details>
+
 </details>
 
 
