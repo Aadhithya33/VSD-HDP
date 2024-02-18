@@ -698,9 +698,13 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 ![image](day3_4/Screenshot6.png)
 
+* LUI(load upper immediate)
+
 ![image](day3_4/Screenshot7.png)
 
 ![image](day3_4/Screenshot8.png)
+
+* ADDI(add immediate)
 
 ![image](day3_4/Screenshot9.png)
 
