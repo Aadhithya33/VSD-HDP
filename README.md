@@ -743,6 +743,19 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 ![image](day3_4/Screenshot22.png)
 
+## Lab for unsigned and signed numbers:
+
+![image](day3_4/Screenshot23.png)
+
+![image](day3_4/Screenshot24.png)
+
+![image](day3_4/Screenshot25.png)
+
+![image](day3_4/Screenshot26.png)
+
+![image](day3_4/Screenshot27.png)
+
+
 
 
 
