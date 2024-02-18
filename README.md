@@ -727,6 +727,23 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 ## 64 bit number system for signed numbers:
 
+![image](day3_4/Screenshot15.png)
+
+![image](day3_4/Screenshot16.png)
+
+![image](day3_4/Screenshot17.png)
+
+![image](day3_4/Screenshot18.png)
+
+![image](day3_4/Screenshot19.png)
+
+![image](day3_4/Screenshot20.png)
+
+![image](day3_4/Screenshot21.png)
+
+![image](day3_4/Screenshot22.png)
+
+
 
 
 </details>
