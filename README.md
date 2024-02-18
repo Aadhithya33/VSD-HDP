@@ -692,6 +692,7 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 ## Spike simulation and debug:
 
+* A way to do **./a.out** in riscv simulator is to use command **spike pk object file**(sum1ton.o).
 
 
 
