@@ -693,8 +693,13 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 ## Spike simulation and debug:
 
 * A way to do **./a.out** in riscv simulator is to use command **spike pk object file**(sum1ton.o).
+* If we debug then we have to use debugger, the command to debug is **spike -d pk sum1ton.o**
+* To know the content in the register use command **reg 0 a2**(register name)
 
-
+![image](day3_4/Screenshot6.png)
+![image](day3_4/Screenshot7.png)
+![image](day3_4/Screenshot8.png)
+![image](day3_4/Screenshot9.png)
 
 </details>
 
