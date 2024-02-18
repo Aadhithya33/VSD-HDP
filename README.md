@@ -782,6 +782,13 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 <details>
     <summary>1b.Memory allocation for Double words</summary>
+
+![image](day6/Screenshot6.png)
+
+![image](day6/Screenshot7.png)
+
+![image](day6/Screenshot8.png)
+    
 </details>
     
 </details>
