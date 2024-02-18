@@ -15,6 +15,8 @@ This repository contains all the necessary steps and files to implement the RTL-
 
 [Day 5-Introduction to RISC-V ISA and GNU compiler tool chain](#day-5)
 
+[Day 6-Introduction to ABI and basic verification flow](#day-6)
+
 
 ## DAY 0
 Install [oracle VM virtual box](https://www.virtualbox.org/wiki/Downloads) and install ubuntu in oracle VM virtual box.
@@ -756,10 +758,9 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 ![image](day3_4/Screenshot27.png)
 
 
-
-
-
 </details>
+
+## DAY 6
 
 
 
