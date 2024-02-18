@@ -764,6 +764,21 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 <details>
     <summary>1.Application Binary Interface(ABI)</summary>
+
+<details>
+    <summary>1a.Introduction to ABI</summary>
+
+![image](day6/Screenshot1.png)
+
+![image](day6/Screenshot2.png)
+
+![image](day6/Screenshot3.png)
+
+![image](day6/Screenshot4.png)
+
+![image](day6/Screenshot5.png)
+    
+</details>
     
 </details>
 
