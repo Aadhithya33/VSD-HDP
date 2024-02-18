@@ -713,7 +713,22 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 <details>
     <summary>3.Integer number representation</summary>
 
-    
+## 64 bit number system for unsigned numbers:
+
+![image](day3_4/Screenshot10.png)
+
+![image](day3_4/Screenshot11.png)
+
+![image](day3_4/Screenshot12.png)
+
+![image](day3_4/Screenshot13.png)
+
+![image](day3_4/Screenshot14.png)
+
+## 64 bit number system for signed numbers:
+
+
+
 </details>
 
 
