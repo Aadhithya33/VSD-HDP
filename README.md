@@ -710,8 +710,11 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 </details>
 
+<details>
+    <summary>3.Integer number representation</summary>
 
-
+    
+</details>
 
 
 
