@@ -697,8 +697,11 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 * To know the content in the register use command **reg 0 a2**(register name)
 
 ![image](day3_4/Screenshot6.png)
+
 ![image](day3_4/Screenshot7.png)
+
 ![image](day3_4/Screenshot8.png)
+
 ![image](day3_4/Screenshot9.png)
 
 </details>
