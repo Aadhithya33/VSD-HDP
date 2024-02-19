@@ -845,6 +845,7 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
     
 ![image](day6/Screenshot25.png)
 
+* Commands to convert c program into hex format file and store it in the memory
 ![image](day6/Screenshot26.png)
 
 ![image](day6/Screenshot27.png)
