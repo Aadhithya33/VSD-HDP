@@ -825,7 +825,10 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 <details>
     <summary>2.Lab work using ABI function calls</summary>
-    
+
+![image](day6/Screenshot19.png)
+
+![image](day6/Screenshot20.png)
 </details>
 
 
