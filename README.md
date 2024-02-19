@@ -829,6 +829,10 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 ![image](day6/Screenshot19.png)
 
 ![image](day6/Screenshot20.png)
+
+![image](day6/Screenshot21.png)
+
+![image](day6/Screenshot22.png)
 </details>
 
 
