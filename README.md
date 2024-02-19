@@ -842,7 +842,12 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 <details>
     <summary>3.Basic verification flow using iverilog</summary>
+    
+![image](day6/Screenshot25.png)
 
+![image](day6/Screenshot26.png)
+
+![image](day6/Screenshot27.png)
     
 </details>
 
