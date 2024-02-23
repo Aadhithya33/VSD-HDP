@@ -875,7 +875,7 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 * Use the same commands that i have used previously for **Netlist** simulation.
 
-![image](day6/Screenshot29.png)
+![image](day6/Screenshot30.png)
 
 
 
