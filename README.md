@@ -856,6 +856,26 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 ## DAY 7
 
+* This [file](https://github.com/vinayrayapati/rv32i) contains **RISCV** verilog code and it's testbench.
+
+## RTL Simulation of RISCV :
+
+* Use the same commands that i have used previously for **RTL** simulation.
+* RTL simulation of RISCV
+
+![image](day6/Screenshot28.png)
+
+## Synthesis of RISCV :
+
+* Use the same commands that i have used previously for Synthesis.
+
+![image](day6/Screenshot29.png)
+
+## Netlist simulation of RISCV :
+
+* Use the same commands that i have used previously for **Netlist** simulation.
+
+![image](day6/Screenshot29.png)
 
 
 
