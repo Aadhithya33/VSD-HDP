@@ -17,6 +17,8 @@ This repository contains all the necessary steps and files to implement the RTL-
 
 [Day 6-Introduction to ABI and basic verification flow](#day-6)
 
+[Day 7-RTL and GLS simulation of RISCV ](#day-7)
+
 
 ## DAY 0
 Install [oracle VM virtual box](https://www.virtualbox.org/wiki/Downloads) and install ubuntu in oracle VM virtual box.
@@ -851,6 +853,8 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 ![image](day6/Screenshot27.png)
     
 </details>
+
+## DAY 7
 
 
 
