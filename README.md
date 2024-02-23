@@ -857,6 +857,7 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 ## DAY 7
 
 * This [file](https://github.com/vinayrayapati/rv32i) contains **RISCV** verilog code and it's testbench.
+* The main goal of day 7 is to get the same waveform for pre and post synthesis.
 
 ## RTL Simulation of RISCV :
 
@@ -876,6 +877,9 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 * Use the same commands that i have used previously for **Netlist** simulation.
 
 ![image](day6/Screenshot30.png)
+
+* Resulting waveform is different from the pre-synthesis simulation waveform.
+* I have used the command "iverilog **-DFUNCTIONAL -DUNIT_DELAY=#1** ../verilog_model/primitives.v ../verilog_model/sky130_fd_sc_hd.v iiitb_rv32i_net.v iiitb_rv32i_tb.v" to resolve the issue but couldn't resolve it.
 
 
 
