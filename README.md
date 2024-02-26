@@ -894,12 +894,13 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 </details>
 <details>
-    <summary>Comparison of RTL and NETLIST simulation of ADD R6,R2,R1</summary>
-* If we observe the verilog location M[0] contains Add r6,r2,r1 instruction.
+    <summary>Comparison between RTL and NETLIST simulation of ADD R6,R2,R1</summary>
+    
+* If we observe the verilog code, location M[0] contains Add r6,r2,r1 instruction.
 
 ![image](day6/Screenshot32.png)
 
-* From the image shown below ,contents of r2 =2 and r1 =1 and after execution of instruction one **( Add r6,r2,r1)** content of r6 should be 3. We have to get r6=3 for RTL and NETLIST simulation.
+* From the image shown below ,contents of r2 =2 and r1 =1 and after execution of instruction one **( Add r6,r2,r1)** content of r6 should be equal to 3. And, We have to get r6=3 for both RTL and NETLIST simulation.
 
 ![image](day6/Screenshot33.png)
 
