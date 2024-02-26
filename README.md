@@ -858,21 +858,28 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 * This [file](https://github.com/vinayrayapati/rv32i) contains **RISCV** verilog code and it's testbench.
 * The main goal of day 7 is to get the same waveform for pre and post synthesis.
-
-## RTL Simulation of RISCV :
+<details>
+    <summary>RTL Simulation of RISCV :</summary>
 
 * Use the same commands that i have used previously for **RTL** simulation.
 * RTL simulation of RISCV
 
 ![image](day6/Screenshot28.png)
 
-## Synthesis of RISCV :
+</details>
+
+<details>
+    
+   <summary>Synthesis of RISCV :</summary>
 
 * Use the same commands that i have used previously for Synthesis.
 
 ![image](day6/Screenshot29.png)
 
-## Netlist simulation of RISCV :
+</details>
+
+<details>
+<summary> Netlist simulation of RISCV :</summary>
 
 * Use the same commands that i have used previously for **Netlist** simulation.
 
@@ -880,7 +887,26 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 * Resulting waveform is different from the pre-synthesis simulation waveform.
 * I have used the command "iverilog **-DFUNCTIONAL -DUNIT_DELAY=#1** ../mylib/verilog_model/primitives.v ../mylib/verilog_model/sky130_fd_sc_hd.v iiitb_rv32i_net.v iiitb_rv32i_tb.v" to resolve the issue but i got a **syntax error**.
+* To solve the syntax error follow the steps given in this [link](https://github.com/The-OpenROAD-Project/OpenLane/issues/518).
+* After solving you will get a waveform just like the image shown below.
+  
+![image](day6/Screenshot31.png)
 
+</details>
+<details>
+    <summary>Comparison of RTL and NETLIST simulation of ADD R6,R2,R1</summary>
+* If we observe the verilog location M[0] contains Add r6,r2,r1 instruction.
+
+![image](day6/Screenshot32.png)
+
+* From the image shown below ,contents of r2 =2 and r1 =1 and after execution of instruction one **( Add r6,r2,r1)** content of r6 should be 3. We have to get r6=3 for RTL and NETLIST simulation.
+
+![image](day6/Screenshot33.png)
+
+* Below image shows that RTL simulation waveform is same as Netlist simulation waveform for instruction **one**.
+
+![image](day6/Screenshot34.png)
+</details>
 
 
 
