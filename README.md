@@ -894,7 +894,7 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 </details>
 <details>
-    <summary>Comparison between RTL and NETLIST simulation of ADD R6,R2,R1</summary>
+    <summary>Comparison between RTL and NETLIST simulation of instruction ADD R6,R2,R1</summary>
     
 * If we observe the verilog code, location M[0] contains Add r6,r2,r1 instruction.
 
