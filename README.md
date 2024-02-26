@@ -904,7 +904,7 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 ![image](day6/Screenshot33.png)
 
-* Below image shows that RTL simulation waveform is same as Netlist simulation waveform for instruction **one**.
+* Below image shows that RTL simulation waveform is same as Netlist simulation waveform for instruction **one**. And, also **r6=3** for both RTL and NETLIST simulation
 
 ![image](day6/Screenshot34.png)
 </details>
