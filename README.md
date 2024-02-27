@@ -17,7 +17,7 @@ This repository contains all the necessary steps and files to implement the RTL-
 
 [Day 6-Introduction to ABI and basic verification flow](#day-6)
 
-[Day 7-RTL and GLS simulation of RISCV ](#day-7)
+[Day 7-RTL and NETLIST simulation of RISCV ](#day-7)
 
 
 ## DAY 0
