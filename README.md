@@ -912,7 +912,8 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 </details>
 
 ## DAY 8
-
+<details>
+    <summary>1.STA and SDC theory</summary>
 **Is Delay of a Cell Constant?**
 * Delay of a cell is function of **input transition and output load**
 * There will be different kinds of path in a design and as every path works on a clock, we need to squeeze the combinational logic in between any paths such that it works for that given clock period.
@@ -927,6 +928,8 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 * input to D(**IO timing path**)
 * input to output(**IO timing path** that ideally should not be present.)
 * clock period will **limit the delays** in all REG2REG timing path.
+
+**CONSTRAINTS?**
 * REG2REG path is constrained by **clock**
 * IN2REG timing path is constrained by **input external delay, input transition(delay of a cell depends on input transition), and clock**
 * REG2OUT timing path is constrained by **output external delay, output load(delay of a cell depends on output load), and clock**
@@ -935,17 +938,30 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 **CLOCK MODELLING**
 * As clock will not arrive at the same time at all the flops. we need to model the clock as well.
 * We have to model the clock for the following
-* Period
-* Source Latency : Time taken by the clock source to generate clock
-* Clock Network Latency : Time taken by the clock distribution network.
-* Clock Skew : Clock path delay mismatches which causes difference in the arrival of the clock.
-* Jitter : stochastic variations in the arrival of clock edge.
-* collectively Clock Skew and Jitter is called **clock uncertainity**.
-* Post CTS, the clock network is real, and hence these modelled clock skew and clock network latency **must be removed**.
-* 
+1.Period
+2.Source Latency : Time taken by the clock source to generate clock
+3.Clock Network Latency : Time taken by the clock distribution network.
+4.Clock Skew : Clock path delay mismatches which causes difference in the arrival of the clock.
+5.Jitter : stochastic variations in the arrival of clock edge.
+6.collectively Clock Skew and Jitter is called **clock uncertainity**.
+7.Post CTS, the clock network is real, and hence these modelled clock skew and clock network latency **must be removed**.
   
+</details>
+
+<details>
+    <summary>2.Lab using OpenSTA</summary>
+
+![image](day6/Screenshot35.png)
+![image](day6/Screenshot36.png)
+![image](day6/Screenshot37.png)
+![image](day6/Screenshot38.png)
+![image](day6/Screenshot39.png)
+![image](day6/Screenshot40.png)
+![image](day6/Screenshot41.png)
 
 
+
+</details>
 
 
 
