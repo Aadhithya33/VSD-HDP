@@ -960,8 +960,56 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 ![image](day6/Screenshot40.png)
 ![image](day6/Screenshot41.png)
 
+</details>
+
+<details>
+    <summary>3.Explanation of SDC constraints</summary>
+    
+* RISCV IO's ports are RN, NPC and WB_OUT where RN is the input port and NPC and  WB_OUT are the output ports.
+    
+![image](day6/Screenshot39.png)
+
+**IMPORTANT POINT ** - Max and Min delay constraints are used to account for setup and hold respectively.
 
 
+* create_clock -period 10 -name clk {clk}
+   - This command is used to create a clk with a period of 10ns.
+
+* set_clock_latency -source -max 3 {clk}
+   - This command is used to set the clock for source latency .
+    
+* set_clock_latency -source -min 1 {clk}
+   - This command is used to set the clock for source latency .
+
+* set_clock_uncertainty -setup 0.5 [get_clock clk]
+   - This command is used to set clock uncertainties(skew, jitter)
+     
+* set_clock_uncertainty -setup 0.2 [get_clock clk]
+   - This command is used to set clock uncertainties(skew, jitter)
+
+* set_input_delay -max 3 [get_ports RN]
+   - This command is used to model **input external delay** wrt setup
+     
+* set_input_delay -min 1 [get_ports RN]
+   - This command is used to model **input external delay** wrt hold
+
+* set_input_transition -max 0.5 [get_ports RN]
+   - This command is used to model input transition (as delay of a cell depends on input transition)
+     
+* set_input_transition -min 0.1 [get_ports RN]
+   - This command is used to model input transition (as delay of a cell depends on input transition)
+
+* set_output_delay -clock clk -max 5 [get_ports NPC]
+   - This command is used to model **output external delay** wrt setup
+
+* set_output_delay -clock clk -min 1 [get_ports NPC]
+   - This command is used to model **output external delay** wrt hold
+ 
+* set_output_delay -clock clk -max 5 [get_ports WB_OUT]
+   - This command is used to model **output external delay** wrt setup
+
+* set_output_delay -clock clk -min 1 [get_ports WB_OUT]
+   - This command is used to model **output external delay** wrt hold
 </details>
 
 
