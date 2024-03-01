@@ -913,7 +913,8 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 ## DAY 8
 <details>
-    <summary>1.STA and SDC theory</summary>
+    <summary>1.STA theory and SDC</summary>
+
 **Is Delay of a Cell Constant?**
 * Delay of a cell is function of **input transition and output load**
 * There will be different kinds of path in a design and as every path works on a clock, we need to squeeze the combinational logic in between any paths such that it works for that given clock period.
@@ -929,7 +930,7 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 * input to output(**IO timing path** that ideally should not be present.)
 * clock period will **limit the delays** in all REG2REG timing path.
 
-**CONSTRAINTS?**
+**How different path are constrained**
 * REG2REG path is constrained by **clock**
 * IN2REG timing path is constrained by **input external delay, input transition(delay of a cell depends on input transition), and clock**
 * REG2OUT timing path is constrained by **output external delay, output load(delay of a cell depends on output load), and clock**
