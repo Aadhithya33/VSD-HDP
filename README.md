@@ -976,16 +976,16 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
    - This command is used to create a clk with a period of 10ns.
 
 * set_clock_latency -source -max 3 {clk}
-   - This command is used to set the clock for source latency .
+   - This command is used to model the clock for source latency .
     
 * set_clock_latency -source -min 1 {clk}
-   - This command is used to set the clock for source latency .
+   - This command is used to model the clock for source latency .
 
 * set_clock_uncertainty -setup 0.5 [get_clock clk]
-   - This command is used to set clock uncertainties(skew, jitter)
+   - This command is used to model the clock uncertainties(skew, jitter)
      
 * set_clock_uncertainty -setup 0.2 [get_clock clk]
-   - This command is used to set clock uncertainties(skew, jitter)
+   - This command is used to model the clock uncertainties(skew, jitter)
 
 * set_input_delay -max 3 [get_ports RN]
    - This command is used to model **input external delay** wrt setup
