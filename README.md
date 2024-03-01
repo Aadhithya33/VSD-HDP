@@ -967,7 +967,7 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 <details>
     <summary>3.Explanation of SDC constraints</summary>
     
-* RISCV IO's ports are RN, NPC and WB_OUT where RN is the input port and NPC and  WB_OUT are the output ports.
+* RISCV IO's ports are RN, NPC and WB_OUT where **RN** is the input port and **NPC** and  **WB_OUT** are the output ports.
     
 ![image](day6/Screenshot39.png)
 
