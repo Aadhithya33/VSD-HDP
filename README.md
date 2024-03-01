@@ -939,13 +939,15 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 **CLOCK MODELLING**
 * As clock will not arrive at the same time at all the flops. we need to model the clock as well.
 * We have to model the clock for the following
-1.Period
-2.Source Latency : Time taken by the clock source to generate clock
-3.Clock Network Latency : Time taken by the clock distribution network.
-4.Clock Skew : Clock path delay mismatches which causes difference in the arrival of the clock.
-5.Jitter : stochastic variations in the arrival of clock edge.
-6.collectively Clock Skew and Jitter is called **clock uncertainity**.
-7.Post CTS, the clock network is real, and hence these modelled clock skew and clock network latency **must be removed**.
+  
+   - 1.Period
+   - 2.Source Latency : Time taken by the clock source to generate clock.
+   - 3.Clock Network Latency : Time taken by the clock distribution network.
+   - 4.Clock Skew : Clock path delay mismatches which causes difference in the arrival of the clock.
+   - 5.Jitter : stochastic variations in the arrival of clock edge.
+   - 6.collectively Clock Skew and Jitter is called **clock uncertainity**.
+   - 7.Post CTS, the clock network is real, and hence these modelled clock skew and clock network latency **must be removed**.
+
   
 </details>
 
@@ -969,7 +971,7 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
     
 ![image](day6/Screenshot39.png)
 
-**IMPORTANT POINT ** - Max and Min delay constraints are used to account for setup and hold respectively.
+**IMPORTANT POINT** - Max and Min delay constraints are used to account for setup and hold respectively.
 
 
 * create_clock -period 10 -name clk {clk}
