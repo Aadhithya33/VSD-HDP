@@ -19,6 +19,8 @@ This repository contains all the necessary steps and files to implement the RTL-
 
 [Day 7-RTL and NETLIST simulation of RISCV ](#day-7)
 
+[Day 8-Basics of STA and Advanced SDC constraints ](#day-8)
+
 
 ## DAY 0
 Install [oracle VM virtual box](https://www.virtualbox.org/wiki/Downloads) and install ubuntu in oracle VM virtual box.
@@ -908,6 +910,40 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 ![image](day6/Screenshot34.png)
 </details>
+
+## DAY 8
+
+**Is Delay of a Cell Constant?**
+* Delay of a cell is function of **input transition and output load**
+* There will be different kinds of path in a design and as every path works on a clock, we need to squeeze the combinational logic in between any paths such that it works for that given clock period.
+* If that is to be done then we need to answer two questions  **1. what is the acceptable delay?** and **2.will clock arrive at the same time at all the flops?**
+
+**TIMING PATHS**
+* start points (input ports, clock pin of registers)
+* End points (output ports, D pin of DFF or DLAT)
+* Always timing paths start at one of the staring points and end at one of the end points.
+* clk to D(**REG2REG Timing path**)
+* clk to output(**IO timing path**)
+* input to D(**IO timing path**)
+* input to output(**IO timing path** that ideally should not be present.)
+* clock period will **limit the delays** in all REG2REG timing path.
+* REG2REG path is constrained by **clock**
+* IN2REG timing path is constrained by **input external delay, input transition(delay of a cell depends on input transition), and clock**
+* REG2OUT timing path is constrained by **output external delay, output load(delay of a cell depends on output load), and clock**
+* IN2REG and REG2OUT are called IO paths and the delay modelling referred above is called **IO Delay Modelling**.
+
+**CLOCK MODELLING**
+* As clock will not arrive at the same time at all the flops. we need to model the clock as well.
+* We have to model the clock for the following
+* Period
+* Source Latency : Time taken by the clock source to generate clock
+* Clock Network Latency : Time taken by the clock distribution network.
+* Clock Skew : Clock path delay mismatches which causes difference in the arrival of the clock.
+* Jitter : stochastic variations in the arrival of clock edge.
+* collectively Clock Skew and Jitter is called **clock uncertainity**.
+* Post CTS, the clock network is real, and hence these modelled clock skew and clock network latency **must be removed**.
+* 
+  
 
 
 
