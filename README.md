@@ -21,6 +21,8 @@ This repository contains all the necessary steps and files to implement the RTL-
 
 [Day 8-Basics of STA and Advanced SDC constraints ](#day-8)
 
+[Day 9-Basics of NMOS drain current(Id) vs Drain to Source voltage(Vds) ](#day-9)
+
 
 ## DAY 0
 Install [oracle VM virtual box](https://www.virtualbox.org/wiki/Downloads) and install ubuntu in oracle VM virtual box.
@@ -996,7 +998,7 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
    - This command is used to model **input external delay** wrt hold
 
 * set_input_transition -max 0.5 [get_ports RN]
-   - This command is used to model input transition (as delay of a cell depends on input transition)
+   - This command is used to model input transition (as delay of a cell depends on input transition)y
      
 * set_input_transition -min 0.1 [get_ports RN]
    - This command is used to model input transition (as delay of a cell depends on input transition)
@@ -1014,5 +1016,54 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
    - This command is used to model **output external delay** wrt hold
 </details>
 
+## DAY 9
+<details>
+    <summary>Why do we need SPICE?</summary>
+
+* Below image shows delay model table for a gate.This delay table gives delay of a gate for a particular input transition and output load. we do spice simulations to get 
+  delay of a gate for different combinations of input transition and output load.
+![image](day6/Screenshot42.png)
+</details>
+
+<details>
+    <summary>NMOS structure and Operation</summary>
+
+* From the images shown below we can easily understand the NMOS operation and structure
+![image](day6/Screenshot43.png)
+![image](day6/Screenshot44.png)
+</details>
+
+<details>
+    <summary>What is the effect of the Vsb voltage on threshold voltage</summary>
+
+* From the images shown below we can easily understand the effect of the **Vsb** voltage on threshold voltage (**vt**)
+![image](day6/Screenshot45.png)
+![image](day6/Screenshot46.png)
+
+</details>
+
+<details>
+    <summary>Derivation of Drain current</summary>
+    
+![image](day6/Screenshot47.png)
+![image](day6/Screenshot48.png)
+
+</details>
+
+<details>
+    <summary>What is Pinchoff phenomenon?</summary>
+    
+![image](day6/Screenshot49.png)
+
+* Pinch off starts when channel voltage (**vgs-vds**) is less than or equal to **Vt**.
+
+![image](day6/Screenshot51.png)
+
+* When channel voltage is much less than **vt** then channel voltage is going to be constant i.e(**vgs-vt**)
+* If we substitute **vds=vgs-vt** in drain current equation then we can model this as constant current source as it is independent of **vds**.
+* But is it true ? No its not, you can observe that in the image below
+
+![image](day6/Screenshot51.png)
+</details>
 
 
