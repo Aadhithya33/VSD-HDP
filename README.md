@@ -1086,7 +1086,7 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
     <summary>Td vs VDS(for different vgs)</summary>
 
 * Simulation commands:
-![image](day6/Screenshot53ngO.png)
+![image](day6/Screenshot53ngg.png)
 
 * plot
 ![image](day6/Screenshot53ng.png)
