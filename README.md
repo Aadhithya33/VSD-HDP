@@ -1067,4 +1067,32 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 ![image](day6/Screenshot50.png)
 </details>
 
+<details>
+    <summary>Spice simulation using NGSPICE</summary>
+<details>
+    <summary>How to setup spice</summary>
+    
+* Images shown below explains how to setup spice simulations
+![image](day6/Screenshot54.png)
+![image](day6/Screenshot55.png)
+![image](day6/Screenshot56.png)
+![image](day6/Screenshot57.png)
+![image](day6/Screenshot58.png)
+![image](day6/Screenshot59.png)
+
+</details> 
+
+<details>
+    <summary>Td vs VDS(for different vgs)</summary>
+
+* Simulation commands:
+![image](day6/Screenshot53ngO.png)
+
+* plot
+![image](day6/Screenshot53ng.png)
+
+        
+</details>
+</details>
+
 
