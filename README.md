@@ -1059,9 +1059,10 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 ![image](day6/Screenshot51.png)
 
-* When channel voltage is much less than **vt** then channel voltage is going to be constant i.e(**vgs-vt**)
+![image](day6/Screenshot52.png)
+* When channel voltage is less than or equal to **vt** then channel voltage is going to be constant i.e(**vgs-vt**)
 * If we substitute **vds=vgs-vt** in drain current equation then we can model this as constant current source as it is independent of **vds**.
-* But is it true ? No its not, you can observe that in the image below
+* But is it true ? No its not, you can observe that in the image shown below
 
 ![image](day6/Screenshot50.png)
 </details>
