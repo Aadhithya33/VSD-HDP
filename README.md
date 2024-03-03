@@ -1063,7 +1063,7 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 * If we substitute **vds=vgs-vt** in drain current equation then we can model this as constant current source as it is independent of **vds**.
 * But is it true ? No its not, you can observe that in the image below
 
-![image](day6/Screenshot51.png)
+![image](day6/Screenshot50.png)
 </details>
 
 
