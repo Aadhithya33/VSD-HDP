@@ -1083,7 +1083,7 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 </details> 
 
 <details>
-    <summary>Td vs VDS(for different vgs)</summary>
+    <summary>Id vs VDS(for different vgs)</summary>
 
 * Simulation commands:
 ![image](day6/Screenshot53ngg.png)
