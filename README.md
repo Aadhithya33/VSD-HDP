@@ -1089,6 +1089,7 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 <details>
     <summary>Id vs VDS(for different vgs)</summary>
 
+* This [file](https://github.com/kunalg123/sky130CircuitDesignWorkshop.git) contains all necessary files for NGSPICE.
 * Simulation commands:
 ![image](day6/Screenshot53ngg.png)
 
