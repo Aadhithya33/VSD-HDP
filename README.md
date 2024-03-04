@@ -1151,7 +1151,7 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 <details>
     <summary>2.switching threshold(Vm)</summary>
 
-* Switching threshold is a voltage at which **vin=vout**
+* Switching threshold is the voltage at which **vin=vout**
 
 ![image](day6/Screenshot75.png)
 </details>
@@ -1172,7 +1172,7 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 ![image](day6/Screenshot78.png)
 
 * Transient simulation:
-![image](day6/Screenshot78.png)
+![image](day6/Screenshot74.png)
 </details>
 
 
