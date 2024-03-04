@@ -1115,7 +1115,7 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 <details>
     <summary>2.Velocity Saturation (observation 2)</summary>
     
-* According to the current equation it seems that current increase when we decrease the length. But it is not true, current saturates and doesnot increase because of **velocity saturation**.
+* According to the current equation it seems that current increase when we go lower channel length. But it is not true, current saturates and doesnot increase because of **velocity saturation**.
 
 ![image](day6/Screenshot67.png) 
 
@@ -1124,7 +1124,6 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 <details>
     <summary>3.Lab on velocity saturation</summary>
 
-![image](day6/Screenshot60ppp.png)
 ![image](day6/Screenshot60p.png)
 ![image](day6/Screenshot60pp.png)
     
