@@ -1182,3 +1182,22 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 ## DAY 12
 
+<details>
+    <summary>1.Noise Margin</summary>
+
+* Any input voltage level between **0** and **VIL** will be treated as Logic 0. The output for this input will lie between and **VOH** and **VDD** i.e(logic 1)
+* Any input voltage level between **VIH** and **VDD** will be treated as Logic 1. The output for this input will lie between and **0** and **VOL** i.e(logic 0)
+* **IMPORTANT POINT-** VOH must be greater than VIH to be treated as logic 1 for next stage. similarly VOL must be lesser than VIL.
+* Images shown below explains more about noise margin.
+![image](day6/Screenshot79.png)
+![image](day6/Screenshot80.png)
+![image](day6/Screenshot81.png)
+
+* we need higher noise margin for greater noise immunity.
+* If we increase **PMOS WIDTH** by keeping **NMOS WIDTH** constant then we observe that Noise margin high(**NMH**) increases and whereas **NML** remains constant. But if we further increase PMOS WIDTH then there will be no increase in NMh and  also we will notice decrease in NML because NMOS is weaker than PMOS.
+* Image shown below explains about this:
+![image](day6/Screenshot82.png)
+
+
+</details>
+
