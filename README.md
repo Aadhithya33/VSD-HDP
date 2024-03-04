@@ -1132,13 +1132,14 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 </details>
 
 <details>
-    <summary>4.basics of CMOS Inverter</summary>
+    <summary>4.basics of CMOS Inverter(VTC)</summary>
 
 ![image](day6/Screenshot68.png)
 ![image](day6/Screenshot69.png)
 </details>
 
 ## DAY 11
+
 
 
 
