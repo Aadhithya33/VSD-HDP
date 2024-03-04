@@ -23,6 +23,8 @@ This repository contains all the necessary steps and files to implement the RTL-
 
 [Day 9-Basics of NMOS drain current(Id) vs Drain to Source voltage(Vds) ](#day-9)
 
+[Day 10-Velocity Saturation and Basics of CMOS inverter VTC ](#day-10)
+
 
 ## DAY 0
 Install [oracle VM virtual box](https://www.virtualbox.org/wiki/Downloads) and install ubuntu in oracle VM virtual box.
@@ -1094,5 +1096,39 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
         
 </details>
 </details>
+
+## DAY 10
+
+<details>
+    <summary>1.Velocity Saturation (observation 1)</summary>
+    
+* when we go to lower channel length then we will observe difference in the waveform . This is because of velocity saturation
+    
+![image](day6/Screenshot61.png)  
+![image](day6/Screenshot62.png)
+![image](day6/Screenshot63.png)
+![image](day6/Screenshot64.png)
+![image](day6/Screenshot65.png)
+![image](day6/Screenshot66.png)
+</details>
+
+<details>
+    <summary>2.Velocity Saturation (observation 2)</summary>
+    
+* According to the current equation it seems that current increase when we decrease the length. But it is not true, current saturates and doesnot increase because of **velocity saturation**.
+
+![image](day6/Screenshot67.png) 
+
+</details>
+
+<details>
+    <summary>3.Lab on velocity saturation</summary>
+
+![image](day6/Screenshot60ppp.png)
+![image](day6/Screenshot60p.png)
+![image](day6/Screenshot60pp.png)
+    
+</details>
+
 
 
