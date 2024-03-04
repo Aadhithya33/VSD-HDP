@@ -27,6 +27,8 @@ This repository contains all the necessary steps and files to implement the RTL-
 
 [Day 11-CMOS switching threshold and dynamic simulations ](#day-11)
 
+[Day 12-CMOS Noise Margin Robustness evaluation ](#day-12)
+
 
 ## DAY 0
 Install [oracle VM virtual box](https://www.virtualbox.org/wiki/Downloads) and install ubuntu in oracle VM virtual box.
@@ -1178,5 +1180,5 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 ![image](day6/Screenshot74.png)
 </details>
 
-
+## DAY 12
 
