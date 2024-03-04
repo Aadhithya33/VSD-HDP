@@ -1149,6 +1149,32 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 ![image](day6/Screenshot73.png)
 </details>
 
+<details>
+    <summary>2.switching threshold(Vm)</summary>
+
+* Switching threshold is a voltage at which **vin=vout**
+
+![image](day6/Screenshot75.png)
+</details>
+<details>
+    <summary>3.VTC and transient simulation of CMOS inverter</summary>
+
+* If length of both NMOS and PMOS is constant and width of PMOS is integer multiple of NMOS then we will observe that VTC curve moves towards right. To know the advantage of this we can perform transient simulation and observe rise delay and fall delay.
+* Below image shows rise delay and fall delay for different PMOS widths.
+![image](day6/Screenshot76.png)
+* If we observe when PMOS width is twice of NMOS width then rise delay and fall delay are equal. One of the applications where this is used is clock tree.
+![image](day6/Screenshot77.png)
+
+</details>
+<details>
+    <summary>Transient simulation of CMOS inverter.</summary>
+
+* Spice simulation commands to perform transient simulation:
+![image](day6/Screenshot78.png)
+
+* Transient simulation:
+![image](day6/Screenshot78.png)
+</details>
 
 
 
