@@ -1145,7 +1145,6 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 ![image](day6/Screenshot70.png)
 ![image](day6/Screenshot71.png)
-![image](day6/Screenshot72.png)
 ![image](day6/Screenshot73.png)
 </details>
 
@@ -1162,7 +1161,7 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 * If length of both NMOS and PMOS is constant and width of PMOS is integer multiple of NMOS then we will observe that VTC curve moves towards right. To know the advantage of this we can perform transient simulation and observe rise delay and fall delay.
 * Below image shows rise delay and fall delay for different PMOS widths.
 ![image](day6/Screenshot76.png)
-* If we observe when PMOS width is twice of NMOS width then rise delay and fall delay are equal. One of the applications where this is used is clock tree.
+* If we observe when PMOS width is twice of NMOS width then rise delay and fall delay are equal. One of the applications where this is used is clock tree. In clock tree we need equal rise time and fall time. Remaining are used in different applications such as buffer in the combinational delay path etc..,
 ![image](day6/Screenshot77.png)
 
 </details>
