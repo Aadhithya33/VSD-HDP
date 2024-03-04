@@ -25,6 +25,8 @@ This repository contains all the necessary steps and files to implement the RTL-
 
 [Day 10-Velocity Saturation and Basics of CMOS inverter VTC ](#day-10)
 
+[Day 11-CMOS switching threshold and dynamic simulations ](#day-11)
+
 
 ## DAY 0
 Install [oracle VM virtual box](https://www.virtualbox.org/wiki/Downloads) and install ubuntu in oracle VM virtual box.
@@ -1128,6 +1130,15 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 ![image](day6/Screenshot60pp.png)
     
 </details>
+
+<details>
+    <summary>4.basics of CMOS Inverter</summary>
+
+![image](day6/Screenshot68.png)
+![image](day6/Screenshot69.png)
+</details>
+
+## DAY 11
 
 
 
