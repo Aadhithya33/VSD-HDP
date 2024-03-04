@@ -1200,4 +1200,12 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 
 </details>
+<details>
+    <summary>2.Lab on Noise Margin</summary>
+
+![image](day6/Screenshot83.png)
+
+* From above image VIL=0.758, VOH=1.72, VIH=0.991 and,VOL=0.086. so, **NMH**=VOH-VIH=1.72-0.991=**0.729** and **NML**=VIL-VOL=0.758-0.086=**0.672**.
+
+</details>
 
