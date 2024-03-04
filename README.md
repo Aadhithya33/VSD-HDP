@@ -1140,6 +1140,15 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 ## DAY 11
 
+<details>
+    <summary>1.VTC using NGSPICE</summary>
+
+![image](day6/Screenshot70.png)
+![image](day6/Screenshot71.png)
+![image](day6/Screenshot72.png)
+![image](day6/Screenshot73.png)
+</details>
+
 
 
 
