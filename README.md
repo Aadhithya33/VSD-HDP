@@ -1169,9 +1169,11 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
     <summary>Transient simulation of CMOS inverter.</summary>
 
 * Spice simulation commands to perform transient simulation:
+
 ![image](day6/Screenshot78.png)
 
 * Transient simulation:
+
 ![image](day6/Screenshot74.png)
 </details>
 
