@@ -1237,3 +1237,35 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 ![image](day6/Screenshot87.png)
 
 </details>
+<details>
+    <summary>3.Sources of variation(Etching process variation)</summary>
+
+* Below images explain about Etching process variation:
+![image](day6/Screenshot91.png)
+![image](day6/Screenshot92.png)
+</details>
+<details>
+    <summary>4.Sources of variation(Oxide thickness)</summary>
+
+* Below images explain about Oxide thickness variation:
+![image](day6/Screenshot93.png)
+![image](day6/Screenshot94.png)
+</details>
+<details>
+    <summary>5.CMOS inverter robustness in presence of variations</summary>
+
+* Below images explain about CMOS inverter robustness in presence of variations:
+![image](day6/Screenshot95.png)
+![image](day6/Screenshot96.png)
+    
+</details>
+<details>
+    <summary>6.Lab work proving the CMOS robustness</summary>
+
+* Spice simulation commands
+![image](day6/Screenshot95.png)
+
+* Ideally switching threshold should be 0.9V for 1.8V power supply but if we observe the image shown below(strong PMOS and weak NMOS) switching threshold is 0.98V . As the variation in switching threshold  is less. we can say that CMOS inverter is robust.
+* 
+![image](day6/Screenshot96.png)
+</details>
