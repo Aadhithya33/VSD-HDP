@@ -1263,9 +1263,9 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
     <summary>6.Lab work proving the CMOS robustness</summary>
 
 * Spice simulation commands
-![image](day6/Screenshot95.png)
+![image](day6/Screenshot89.png)
 
 * Ideally switching threshold should be 0.9V for 1.8V power supply but if we observe the image shown below(strong PMOS and weak NMOS) switching threshold is 0.98V . As the variation in switching threshold  is less. we can say that CMOS inverter is robust.
-* 
-![image](day6/Screenshot96.png)
+ 
+![image](day6/Screenshot90.png)
 </details>
