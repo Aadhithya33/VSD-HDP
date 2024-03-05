@@ -1230,6 +1230,10 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 <details>
     <summary>2.Lab on Power supply scaling</summary>
     
-![image](day6/Screenshot87.png)
+* Spice simulation commands
 ![image](day6/Screenshot88.png)
+
+* Observe that gain increases as supply voltage increases but for 0.8V supply voltage gain was less because 0.8V supply is not enough to turn on PMOS and NMOS.
+![image](day6/Screenshot87.png)
+
 </details>
