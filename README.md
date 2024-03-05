@@ -1213,3 +1213,23 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 </details>
 
 ## DAY 13
+
+<details>
+    <summary>1.power supply scaling</summary>
+
+* When to go lower nodes then we have to scale down the voltage as well.
+![image](day6/Screenshot84.png)
+
+* If we observe for 0.5V supply voltage, the wave form looks different, it is because there is less time to charge and discharge the capacitor that means rise and fall delays are higher for 0.5V supply voltage when compared to higher supply voltages.
+![image](day6/Screenshot85.png)
+
+* Advantages and disadvantages of power supply scaling:
+![image](day6/Screenshot86.png)
+</details>
+
+<details>
+    <summary>2.Lab on Power supply scaling</summary>
+    
+![image](day6/Screenshot87.png)
+![image](day6/Screenshot88.png)
+</details>
