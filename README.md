@@ -29,6 +29,8 @@ This repository contains all the necessary steps and files to implement the RTL-
 
 [Day 12-CMOS Noise Margin Robustness evaluation ](#day-12)
 
+[Day 13-CMOS Power supply and device variation robustness evaluation](#day-13)
+
 
 ## DAY 0
 Install [oracle VM virtual box](https://www.virtualbox.org/wiki/Downloads) and install ubuntu in oracle VM virtual box.
@@ -1198,6 +1200,7 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 * Image shown below explains about this:
 ![image](day6/Screenshot82.png)
 
+* **ONE MORE IMPORTANT POINT** is that after fabrication if there is any variation in widths then NMh,NMl and Vm are not going to change that much. Basically the variation in NMH and NML will less than 5%.
 
 </details>
 <details>
