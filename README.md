@@ -31,7 +31,7 @@ This repository contains all the necessary steps and files to implement the RTL-
 
 [Day 13-CMOS Power supply and device variation robustness evaluation](#day-13)
 
-[Day 14-Post synthesis STA checks for RISCV on ss,ff,and, tt corners](#day-14)
+[Day 14-Post synthesis STA checks for RISCV design on ss,ff,and, tt corners](#day-14)
 
 ## DAY 0
 Install [oracle VM virtual box](https://www.virtualbox.org/wiki/Downloads) and install ubuntu in oracle VM virtual box.
