@@ -1276,7 +1276,14 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 * Same sdc constraints were used with different PVT corners and also generated its corresponding TNS,WNS, and WHS.
 * This [repo](https://github.com/Geetima2021/vsdpcvrd.git) contains all timing libs which were used for PVT corner analysis.
 * I have tabulated all the values and plotted the graphs as well.
-* PVT corner analysis table is shown below:
+<details>
+<summary>PVT corner analysis table</summary>    
+    
 ![image](day6/Screenshot98.png)
-* Graph :
+</details>
+
+<details>
+<summary>Graph</summary>
+    
 ![image](day6/Screenshot99.png)
+</details>
