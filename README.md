@@ -1330,8 +1330,26 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 <details>
     <summary>3b.Run synthesis and characterize synthesis results</summary>
 
-**Calculating Flop ratio from the results which is in the runs folder**
+* Calculating Flop ratio from the results which is in the runs folder
+**FLOP RATIO=1613/14876=0.108**
 ![image](day6/Screenshot4.png)
+
+
+</details>
+
+<details>
+    <summary>3c.Commands to invoke openLANE and run synthesis</summary>
+    
+```bash
+
+docker
+./flow.tcl -interactive
+package require openlane 0.9
+prep -design picorv32a
+run_synthesis
+```
+
+
 </details>
 
 
