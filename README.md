@@ -1287,3 +1287,67 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
     
 ![image](day6/Screenshot99.png)
 </details>
+
+
+
+To update Docker to the latest version on your Ubuntu system, follow these steps:
+
+1. Open a terminal window.
+
+2. First, update your package index:
+   ```bash
+   sudo apt-get update
+   ```
+
+3. Next, remove any older versions of Docker that might be on your system:
+   ```bash
+   sudo apt remove docker docker-engine docker.io containerd runc
+   ```
+
+4. Now, you can install Docker anew. To do this, first ensure you have the necessary packages to allow apt to use a repository over HTTPS:
+   ```bash
+   sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+   ```
+
+5. Add Docker's official GPG key:
+   ```bash
+   curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   ```
+
+6. Set up the stable repository:
+   ```bash
+   sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+   ```
+
+7. Update the apt package index again:
+   ```bash
+   sudo apt-get update
+   ```
+
+8. Finally, install the latest version of Docker CE (Community Edition):
+   ```bash
+   sudo apt-get install docker-ce docker-ce-cli containerd.io -y
+   ```
+
+9. Verify your installation by running the Hello World container:
+   ```bash
+   sudo docker run hello-world
+   ```
+
+This should download a test image and run it in a container, confirming that Docker is correctly installed and running.
+
+Make sure your user is part of the `docker` group so you can run Docker commands without `sudo`:
+```bash
+sudo usermod -aG docker $USER
+```
+
+After this, you might need to log out and log back in for the group changes to take effect.
+
+For a specific version of Docker, you could specify the version in your install command, like so:
+```bash
+sudo apt-get install docker-ce=<VERSION_STRING> docker-ce-cli=<VERSION_STRING> containerd.io
+```
+
+Replace `<VERSION_STRING>` with the version number you wish to install.
+
+Remember to check Docker's official documentation and sources like Its Linux FOSS and TechRepublic for more details and potential troubleshooting steps【15†source】【16†source】【17†source】【18†source】.
