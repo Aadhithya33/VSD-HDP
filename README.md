@@ -35,6 +35,8 @@ This repository contains all the necessary steps and files to implement the RTL-
 
 [Day 15-Inception of open-source EDA, OpenLANE and Sky130 PDK](#day-15)
 
+[Day 16-Good floorplan vs bad floorplan and introduction to library cells](#day-16)
+
 ## DAY 0
 Install [oracle VM virtual box](https://www.virtualbox.org/wiki/Downloads) and install ubuntu in oracle VM virtual box.
 If system has 16GB RAM and 512GB HDD then allocate 8GB RAM and 100 GB HDD for oracle VM virtual box.
@@ -1350,3 +1352,5 @@ run_synthesis
 ```
 </details>
 </details>
+
+## DAY 16
