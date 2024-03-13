@@ -1322,9 +1322,9 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 <details>
     <summary>3a.Design Preparation Step</summary>
     
-![image](day6/Screenshot1.png)
-![image](day6/Screenshot2.png)
-![image](day6/Screenshot3.png)
+![image](day7/Screenshot1.png)
+![image](day7/Screenshot2.png)
+![image](day7/Screenshot3.png)
 </details>
 
 <details>
@@ -1332,7 +1332,7 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 
 * Calculating Flop ratio from the results which is in the runs folder
 **FLOP RATIO=1613/14876=0.108**
-![image](day6/Screenshot4.png)
+![image](day7/Screenshot4.png)
 
 
 </details>
@@ -1348,26 +1348,5 @@ package require openlane 0.9
 prep -design picorv32a
 run_synthesis
 ```
-
-
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </details>
