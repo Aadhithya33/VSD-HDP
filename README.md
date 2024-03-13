@@ -33,6 +33,8 @@ This repository contains all the necessary steps and files to implement the RTL-
 
 [Day 14-Post synthesis STA checks for RISCV design on ss,ff,and, tt corners](#day-14)
 
+[Day 15-Inception of open-source EDA, OpenLANE and Sky130 PDK](#day-15)
+
 ## DAY 0
 Install [oracle VM virtual box](https://www.virtualbox.org/wiki/Downloads) and install ubuntu in oracle VM virtual box.
 If system has 16GB RAM and 512GB HDD then allocate 8GB RAM and 100 GB HDD for oracle VM virtual box.
@@ -1289,4 +1291,65 @@ This [file](https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/
 </details>
 
 
+## DAY 15
 
+<details>
+    <summary>1.How to talk to computers</summary>
+
+* Below image explains how we talk to computer which is RISCV based
+
+![image](day6/Screenshot101.png)
+![image](day6/Screenshot102.png)
+
+</details>
+
+<details>
+    <summary>2.SoC design and OpenLANE</summary>
+
+**What do we need for ASIC design?**
+![image](day6/Screenshot103.png)
+
+**What is PDK?**
+![image](day6/Screenshot104.png)
+
+**ASIC FLOW**
+![image](day6/Screenshot105.png)
+</details>
+
+<details>
+    <summary>3.Get familiar to open-source EDA tools</summary>
+
+<details>
+    <summary>3a.Design Preparation Step</summary>
+    
+![image](day6/Screenshot1.png)
+![image](day6/Screenshot2.png)
+![image](day6/Screenshot3.png)
+</details>
+
+<details>
+    <summary>3b.Run synthesis and characterize synthesis results</summary>
+
+**Calculating Flop ratio from the results which is in the runs folder**
+![image](day6/Screenshot4.png)
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</details>
