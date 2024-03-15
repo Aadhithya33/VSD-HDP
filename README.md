@@ -1366,7 +1366,7 @@ run_synthesis
 
 3.De-coupling capacitors - Decoupling capacitors are placed around the pre-placed cells because supply voltage from vdd degrades when it reaches to the pre-placed cell because of voltage drop.So De-coupling capacitors are placed in order to reduce voltage drop from Vdd.
 
-4.Power planning - It is not possible to place Decoupling capacitors around every logic block.So power planning is done to reduce voltage droop and ground bounce.
+4.Power planning - It is not possible to place Decoupling capacitors around every logic block.So power planning is done to avoid voltage droop and ground bounce.
 
 5.Pin Placement and Logical cell Placement Blockage - After power planning Pin placement is done according to the netlist and Clock pins are larger in size than Input/Output ports because clock has to go to every place in the chip , so to avoid degradation in the clock, clock pins are larger because larger than size lesser the resistance.
 
