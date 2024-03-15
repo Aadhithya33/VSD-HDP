@@ -1536,3 +1536,9 @@ set ::env(FP_IO_MODE) 1; # 0 matching mode - 1 random equidistant mode
 
 
 </details>
+
+<details>
+    <summary>4.Lab</summary>
+    
+![image](day7/Screenshot18.png)
+</details>
