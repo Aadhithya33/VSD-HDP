@@ -1426,3 +1426,16 @@ magic -T ../../../../../../../pdks/sky130A/libs.tech/magic/sky130A.tech lef read
 ![image](day7/Screenshot9.png)
 ![image](day7/Screenshot10.png)
 </details>
+
+<details>
+    <summary>5.Cell design and characterization flow</summary>
+    
+![image](day7/Screenshot11.png)   
+* Images shown below explain cell design and characterization flow.
+
+![image](day7/Screenshot12.png)
+![image](day7/Screenshot13.png)
+![image](day7/Screenshot14.png)
+![image](day7/Screenshot15.png)
+
+</details>
