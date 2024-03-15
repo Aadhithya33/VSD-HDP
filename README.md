@@ -1566,3 +1566,21 @@ ext2spice
 ![image](day7/Screenshot21.png)
  
 </details>
+<details>
+    <summary>6.Lab on DRC(Design rule checking)</summary>
+
+* Commands to get mag files.
+
+```bash
+wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz
+tar xfz drc_tests.tgz
+```
+* command to invoke magic is **magix -d XR**
+
+* Met3.mag file in magic looks like
+![image](day7/Screenshot22.png)
+
+* DRC fix (poly.9)
+![image](day7/Screenshot23.png)
+
+</details>
