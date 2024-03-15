@@ -1441,4 +1441,22 @@ magic -T ../../../../../../../pdks/sky130A/libs.tech/magic/sky130A.tech lef read
 </details>
 <details>
     <summary>6.General timing characterization parameters</summary>
+
+![image](day7/Screenshot3182.png)
+![image](day7/Screenshot3184.png)
+![image](day7/Screenshot3186.png)
+![image](day7/Screenshot3187.png)
+![image](day7/Screenshot3188.png)
+
+**Poor choice of threshold points leads to negative delay**
+![image](day7/Screenshot3189.png)
+
+**Negative delay is also possible if there is high wire delay between two inverters.**
+![image](day7/Screenshot3191.png)
+![image](day7/Screenshot3192.png)
+
+**Transition time**
+![image](day7/Screenshot3193.png)
+![image](day7/Screenshot3194.png)
+
 </details>
