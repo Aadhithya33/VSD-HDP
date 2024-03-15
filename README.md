@@ -1419,7 +1419,7 @@ magic -T ../../../../../../../pdks/sky130A/libs.tech/magic/sky130A.tech lef read
 * Command to view design in magic after placement
 
 ```bash
-
+magic -T ../../../../../../../pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &
 ```
 
 * This is how design looks like after placement
