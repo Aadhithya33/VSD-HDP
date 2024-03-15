@@ -1395,3 +1395,19 @@ magic -T ../../../../../../../pdks/sky130A/libs.tech/magic/sky130A.tech lef read
   
 
 </details>
+<details>
+    <summary>3.Library Binding and Placement</summary>
+
+**Steps to perform placement:**
+
+1. Bind netlist with physical cells
+
+2. Placement
+
+3. Optimize placement (**This is the stage where we estimate wire length and capacitance and, based on that, insert repeaters)
+
+4. Perform STA(**Setup**)
+   
+* Image shown below describes how the design looks after placement:
+![image](day7/Screenshot8.png)
+</details>
