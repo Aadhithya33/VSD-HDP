@@ -1558,9 +1558,11 @@ ext2spice
     <summary>5.Lab to create SPICE deck and characterize the inverter</summary>
 
 * Spice deck:
- ![image](day7/Screenshot20.png)
+
+![image](day7/Screenshot20.png)
 
 * Characterization of Inverter using ngspice:
+
 ![image](day7/Screenshot21.png)
  
 </details>
