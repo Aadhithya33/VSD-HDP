@@ -1411,3 +1411,18 @@ magic -T ../../../../../../../pdks/sky130A/libs.tech/magic/sky130A.tech lef read
 * Image shown below describes how the design looks after placement:
 ![image](day7/Screenshot8.png)
 </details>
+<details>
+    <summary>4.Lab on placement</summary>
+
+* Command to perform placement **run_placement**
+
+* Command to view design in magic after placement
+
+```bash
+
+```
+
+* This is how design looks like after placement
+![image](day7/Screenshot9.png)
+![image](day7/Screenshot10.png)
+</details>
