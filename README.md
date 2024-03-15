@@ -1494,4 +1494,45 @@ set ::env(FP_IO_MODE) 1; # 0 matching mode - 1 random equidistant mode
 
 <details>
     <summary>3.Inception of layout and CMOS fabrication process</summary>
+
+* Steps involved in the CMOS fabrication process.
+
+**16-mask CMOS process**
+
+1.selecting a substrate
+
+![image](day7/Screenshot3196.png)
+
+2.Creating Active region for transistors
+
+![image](day7/Screenshot3208.png)
+
+3.N-Well and P-Well formation
+
+![image](day7/Screenshot3221.png)
+
+4.Formation of Gate
+
+![image](day7/Screenshot3238.png)
+
+5.Lightly doped drain (LDO) formation
+
+![image](day7/Screenshot3251.png)
+
+6.Source and Drain formation
+
+![image](day7/Screenshot3261.png)
+
+7.Steps to form contacts and interconnects(local)
+
+![image](day7/Screenshot3276.png)
+
+8.High Level Metal formation
+
+![image](day7/Screenshot3299.png)
+
+**Now it is ready for fabrication**
+![image](day7/Screenshot3300.png)
+
+
 </details>
