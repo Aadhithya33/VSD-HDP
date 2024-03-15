@@ -1480,6 +1480,14 @@ set ::env(FP_IO_MODE) 1; # 0 matching mode - 1 random equidistant mode
 </details>
 <details>
     <summary>2.Lab</summary>
+
+* Cloned a custom design from github for the purpose of characterization
+* cloned form **https://github.com/nickson-jose/vsdstdcelldesign.git**
+* commands to open the design in magic.
+
+```bash
+ magic -T sky130A.tech sky130_inv.mag
+```
     
 ![image](day7/Screenshot17.png)
 </details>
