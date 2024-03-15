@@ -1359,12 +1359,19 @@ run_synthesis
     <summary>1.Chip Floor Planning considerations</summary>
 
 **Steps to perform floor planning**
+
 1.Utilization factor and aspect ratio. Where utilization factor =**Area occupied by the netlist/Total area of the core** and aspect ratio = **height of the core/width of the core**
+
 2.Preplaced cells- Whenever a particular combinational logic block is used multiple times in the designs. we have to implement them only once and can use it whenever we need it.
+
 3.De-coupling capacitors - Decoupling capacitors are placed around the pre-placed cells because supply voltage from vdd degrades when it reaches to the pre-placed cell because of voltage drop.So De-coupling capacitors are placed in order to reduce voltage drop from Vdd.
+
 4.Power planning - It is not possible to place Decoupling capacitors around every logic block.So power planning is done to reduce voltage droop and ground bounce.
+
 5.Pin Placement and Logical cell Placement Blockage - After power planning Pin placement is done according to the netlist and Clock pins are larger in size than Input/Output ports because clock has to go to every place in the chip , so to avoid degradation in the clock, clock pins are larger because larger than size lesser the resistance.
+
 6. After this Floorplan is ready for placement and routing.
+
 * Below image explains the steps involved in the floor planning
 ![image](day7/Screenshot5.png)
 
