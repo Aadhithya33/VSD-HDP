@@ -1370,7 +1370,7 @@ run_synthesis
 
 5.Pin Placement and Logical cell Placement Blockage - After power planning Pin placement is done according to the netlist and Clock pins are larger in size than Input/Output ports because clock has to go to every place in the chip , so to avoid degradation in the clock, clock pins are larger because larger than size lesser the resistance.
 
-6. After this Floorplan is ready for placement and routing.
+6.After this Floorplan is ready for placement and routing.
 
 * Below image explains the steps involved in the floor planning
 ![image](day7/Screenshot5.png)
