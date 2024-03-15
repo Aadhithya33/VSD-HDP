@@ -1404,9 +1404,9 @@ magic -T ../../../../../../../pdks/sky130A/libs.tech/magic/sky130A.tech lef read
 
 2. Placement
 
-3. Optimize placement (**This is the stage where we estimate wire length and capacitance and, based on that, insert repeaters)
+3. Optimize placement (**This is the stage where we estimate wire length and capacitance and, based on that, insert repeaters**)
 
-4. Perform STA(**Setup**)
+4. Perform STA(**Setup time analysis**)
    
 * Image shown below describes how the design looks after placement:
 ![image](day7/Screenshot8.png)
