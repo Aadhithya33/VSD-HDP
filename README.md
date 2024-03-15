@@ -1471,7 +1471,8 @@ magic -T ../../../../../../../pdks/sky130A/libs.tech/magic/sky130A.tech lef read
 * As we know PnR is done iteratively. The command to place pins(not equidistant)
 
 ```bash
-
+set ::env(FP_IO_MODE) 1; # 0 matching mode - 1 random equidistant mode
+```
 
 ![image](day7/Screenshot16.png)
 
