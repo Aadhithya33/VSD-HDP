@@ -1538,7 +1538,18 @@ set ::env(FP_IO_MODE) 1; # 0 matching mode - 1 random equidistant mode
 </details>
 
 <details>
-    <summary>4.Lab</summary>
+    <summary>4.Lab to create std cell layout and extract spice netlist</summary>
     
 ![image](day7/Screenshot18.png)
+
+* commands to extract spice netlist.
+
+```bash
+extract all
+ext2spice cthresh 0 rthresh 0
+ext2spice
+```
+![image](day7/Screenshot19.png)
+
+
 </details>
