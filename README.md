@@ -1439,3 +1439,6 @@ magic -T ../../../../../../../pdks/sky130A/libs.tech/magic/sky130A.tech lef read
 ![image](day7/Screenshot15.png)
 
 </details>
+<details>
+    <summary>6.General timing characterization parameters</summary>
+</details>
