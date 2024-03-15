@@ -37,6 +37,8 @@ This repository contains all the necessary steps and files to implement the RTL-
 
 [Day 16-Good floorplan vs bad floorplan and introduction to library cells](#day-16)
 
+[Day 17-Design library cell using Magic Layout and ngspice characterization](#day-17)
+
 ## DAY 0
 Install [oracle VM virtual box](https://www.virtualbox.org/wiki/Downloads) and install ubuntu in oracle VM virtual box.
 If system has 16GB RAM and 512GB HDD then allocate 8GB RAM and 100 GB HDD for oracle VM virtual box.
@@ -1458,5 +1460,20 @@ magic -T ../../../../../../../pdks/sky130A/libs.tech/magic/sky130A.tech lef read
 **Transition time**
 ![image](day7/Screenshot3193.png)
 ![image](day7/Screenshot3194.png)
+
+</details>
+
+## DAY 17
+
+<details>
+    <summary>1.IO placer revision</summary>
+
+* As we know PnR is done iteratively. The command to place pins(not equidistant)
+
+```bash
+
+
+![image](day7/Screenshot16.png)
+
 
 </details>
