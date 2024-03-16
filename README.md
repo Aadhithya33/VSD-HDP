@@ -39,6 +39,8 @@ This repository contains all the necessary steps and files to implement the RTL-
 
 [Day 17-Design library cell using Magic Layout and ngspice characterization](#day-17)
 
+[Day 18-Pre-layout timing analysis and importance of good clock tree](#day-18)
+
 ## DAY 0
 Install [oracle VM virtual box](https://www.virtualbox.org/wiki/Downloads) and install ubuntu in oracle VM virtual box.
 If system has 16GB RAM and 512GB HDD then allocate 8GB RAM and 100 GB HDD for oracle VM virtual box.
@@ -1582,5 +1584,20 @@ tar xfz drc_tests.tgz
 
 * DRC fix (poly.9)
 ![image](day7/Screenshot23.png)
+
+</details>
+<details>
+    <summary>1.Timing modelling using delay tables</summary>
+<details>
+    <summary>1a.Lab steps to convert grid info to track info</summary>
+
+![image](day7/Screenshot24.png)
+![image](day7/Screenshot25.png)
+    
+</details>
+<details>
+    <summary>1b.Lab steps to convert magic layout to std cell LEF </summary>
+    
+</details>
 
 </details>
