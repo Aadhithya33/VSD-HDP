@@ -1600,7 +1600,8 @@ tar xfz drc_tests.tgz
 </details>
 <details>
     <summary>1b.Lab steps to convert magic layout to std cell LEF </summary>
-    
+
+![image](day7/Screenshot26.png)
 </details>
 
 </details>
