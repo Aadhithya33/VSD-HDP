@@ -1626,4 +1626,16 @@ add_lefs -src $lefs
 ![image](day7/Screenshot27.png)  
 </details>
 
+<details>
+    <summary>1d.Introduction to delay tables and their usage</summary>
+
+* Image shown below explains everything about delay table and their usage.
+![image](day7/Screenshot28.png)
+
+</details>
+
+<details>
+    <summary>1e.Lab steps to configure synthesis settings to fix slack and include vsdinv</summary>
+</details>
+
 </details>
