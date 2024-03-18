@@ -1603,5 +1603,27 @@ tar xfz drc_tests.tgz
 
 ![image](day7/Screenshot26.png)
 </details>
+<details>
+    <summary>1c.Introduction to timing libs and steps to include new cell in synthesis</summary>
+
+* Now we have to copy generated lef file into src folder.
+* Then we have to modify config.tcl file. We have to insert commands shown below in the config.tcl file before synthesis.
+  
+```bash
+set ::env(LIB_SYNTH) "$::env(OPENLANE_ROOT)/designs/picorv32a/src/sky130_fd_sc_hd__typical.lib"
+set ::env(LIB_FASTEST) "$::env(OPENLANE_ROOT)/designs/picorv32a/src/sky130_fd_sc_hd__fast.lib"
+set ::env(LIB_SLOWEST) "$::env(OPENLANE_ROOT)/designs/picorv32a/src/sky130_fd_sc_hd__slow.lib"
+set ::env(LIB_TYPICAL) "$::env(OPENLANE_ROOT)/designs/picorv32a/src/sky130_fd_sc_hd__typical.lib"
+set ::env(EXTRA_LEFS) [glob $::env(OPENLANE_ROOT)/designs/$::env(DESIGN_NAME)/src/*.lef]
+```
+
+* After Prep -design picorv32a step , we have to insert commands shown below.
+```bash
+set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
+add_lefs -src $lefs
+```
+* Below image shows that synthesis used  **1554  sky130_vsdinv** cells.
+![image](day7/Screenshot27.png)  
+</details>
 
 </details>
