@@ -1671,7 +1671,9 @@ run_synthesis
 
 <details>
     <summary>2b.Introduction to clock jitter and clock uncertainty</summary>
-    
+
+![image](day7/Screenshot35.png)
+![image](day7/Screenshot36.png)
 </details>
     
 </details>
