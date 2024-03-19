@@ -1643,10 +1643,13 @@ set ::env(SYNTH_STRATEGY) "DELAY 1"
 set ::env(SYNTH_SIZING) 1
 run_synthesis
 ```
+
 * Area and slack before using above commands:
+
 ![image](day7/Screenshot29.png)
 
 * Area and slack after using commands:
+
 ![image](day7/Screenshot30.png)
 ![image](day7/Screenshot31.png)
 
