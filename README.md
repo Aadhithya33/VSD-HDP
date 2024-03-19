@@ -1660,5 +1660,18 @@ run_synthesis
 </details>
 <details>
     <summary>2.Timing analysis with ideal clocks using openSTA</summary>
+
+<details>
+    <summary>2a.Setup time analysis</summary>
+
+![image](day7/Screenshot32.png)
+![image](day7/Screenshot33.png)
+![image](day7/Screenshot34.png)
+</details>
+
+<details>
+    <summary>2b.Introduction to clock jitter and clock uncertainty</summary>
+    
+</details>
     
 </details>
