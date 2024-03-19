@@ -1639,6 +1639,23 @@ add_lefs -src $lefs
 
 <details>
     <summary>1e.Lab steps to configure synthesis settings to fix slack and include vsdinv</summary>
+
+* To reduce slack I have used following commands :
+
+```bash
+set ::env(SYNTH_STRATEGY) "DELAY 1"
+set ::env(SYNTH_SIZING) 1
+run_synthesis
+```
+* Area and slack before using above commands:
+![image](day7/Screenshot29.png)
+
+* Area and slack after using commands:
+![image](day7/Screenshot30.png)
+![image](day7/Screenshot31.png)
+
+* Here we comprised area to improve slack.
+  
 </details>
 
 </details>
