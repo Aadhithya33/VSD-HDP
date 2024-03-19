@@ -1,10 +1,6 @@
 # VSD-Hardware Design program
 This repository contains all the necessary steps and files to implement the RTL-to-GDSII flow.
 
-| `SYNTH_STRATEGY` | Strategies for abc logic synthesis and technology mapping <br> Possible values are `DELAY/AREA 0-3/0-2`; the first part refers to the optimization target of the synthesis strategy (area vs. delay) and the second one is an index. <br> (Default: `AREA 0`)|
-
-
-
 
 [Day 0-Installation of EDA Tools](#day-0)
 
