@@ -1675,5 +1675,21 @@ run_synthesis
 ![image](day7/Screenshot35.png)
 ![image](day7/Screenshot36.png)
 </details>
+
+<details>
+    <summary>2c.Lab steps to configure OpenSTA for post-synth timing analysis</summary>
     
+</details>
+
+<details>
+    <summary>2d.Lab steps to optimize synthesis to reduce setup violations</summary>
+
+
+</details>
+
+<details>
+    <summary>2e.Lab steps to do basic timing ECO</summary>
+    
+</details>
+
 </details>
