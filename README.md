@@ -1659,3 +1659,7 @@ run_synthesis
 </details>
 
 </details>
+<details>
+    <summary>2.Timing analysis with ideal clocks using openSTA</summary>
+    
+</details>
