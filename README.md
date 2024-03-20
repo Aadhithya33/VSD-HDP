@@ -1681,6 +1681,9 @@ run_synthesis
 
 <details>
     <summary>2c.Lab steps to configure OpenSTA for post-synth timing analysis</summary>
+
+* In any PnR tool if there is timing violation, we carry out analysis in separate tool.For example primetime.
+
     
 </details>
 
