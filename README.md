@@ -1653,8 +1653,11 @@ run_synthesis
 ![image](day7/Screenshot30.png)
 ![image](day7/Screenshot31.png)
 
-* Here we comprised area to improve slack.
+* Here we comprised with area to improve slack.
+
+* We have to verify whether our custom cell is plugged into design after placement.
   
+![image](day7/Screenshotpl.png) 
 </details>
 
 </details>
