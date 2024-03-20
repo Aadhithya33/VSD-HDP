@@ -1683,8 +1683,24 @@ run_synthesis
     <summary>2c.Lab steps to configure OpenSTA for post-synth timing analysis</summary>
 
 * In any PnR tool if there is timing violation, we carry out analysis in separate tool.For example primetime.
+* In opensoure EDA tools, we do it OpenSTA tool.
+* For that we have prepare our own sdc file and config file .
+**config file**
 
-    
+  ```bash
+set_cmd_units -time ns -capacitance pF -current mA -voltage V -resistance kOhm -distance um
+read_liberty -min /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/src/sky130_fd_sc_hd__fast.lib
+read_liberty -max /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/src/sky130_fd_sc_hd__slow.lib
+read_verilog /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/20-03_22-55/results/synthesis/picorv32a.synthesis.v
+link_design picorv32a
+read_sdc /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/src/my_base.sdc
+report_checks -path_delay min_max -fields {slew trans net cap input_pin}
+report_tns
+report_wns
+```
+
+* i
+
 </details>
 
 <details>
