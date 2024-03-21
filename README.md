@@ -1814,5 +1814,26 @@ write_verilog /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/des
     
 </details>
 
+<details>
+    <summary>Lab on PostCTS timing analysis using openroad</summary>
+
+* commands to create .db file . db file is used while doing timing analysis in openroad.
+
+```bash
+read_lef /openLANE_flow/designs/picorv32a/runs/21-03_02-34/tmp/merged.lef
+read_def /openLANE_flow/designs/picorv32a/runs/21-03_02-34/results/cts/picorv32a.cts.def
+write_db pico_cts.db
+read_db pico_cts.db
+read_verilog /openLANE_flow/designs/picorv32a/runs/21-03_02-34/results/synthesis/picorv32a.synthesis_cts.v
+read_liberty $::env(LIB_TYPICAL)
+link_design picorv32a
+read_sdc /openLANE_flow/designs/picorv32a/src/picorv32a.sdc
+set_propagated_clock [all_clocks]
+report_checks -path_delay min_max -fields {slew trans net cap input_pin} -format full_clock_expanded -digits 4
+```
+
+    
+</details>
+
 
 </details>
