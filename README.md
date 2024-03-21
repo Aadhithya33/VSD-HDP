@@ -1658,6 +1658,17 @@ run_synthesis
 * Here we comprised with area to improve slack.
 
 * We have to verify whether our custom cell is plugged into design after placement.
+* If you face errors after running floorplan then use commands shown below:
+
+```bash
+init_floorplan
+place_io
+global_placement_or
+detailed_placement
+tap_decap_or
+detailed_placement
+```
+*  "openlane/scripts/tcl_commands/floorplan.tcl" file tells how floorplan takes place.
   
 ![image](day7/Screenshotpl.png) 
 </details>
