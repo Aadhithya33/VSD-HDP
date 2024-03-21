@@ -1729,6 +1729,14 @@ replace_cell instance lib_cell
 * To view reports whether the above command is executed or not, use this **report_checks -from _50144_ -to _50075_ -through _41882_**
 * This is what people do in the industry using commercial tools. We solve violations and generate a timing eco and give it to PnR .
 
+**IMPORTANT_POINT**
+
+* When we replace a cell or upsize a cell or modify a cell, the netlist is going to change.So, to update netlist we have to use command shown below.
+
+```bash
+write_verilog /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/20-03_22-55/results/synthesis/picorv32a.synthesis.v
+```
+
     
 </details>
 
