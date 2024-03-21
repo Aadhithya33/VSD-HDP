@@ -1841,3 +1841,42 @@ report_checks -path_delay min_max -fields {slew trans net cap input_pin} -format
 </details>
 
 ## DAY 19
+
+<details>
+    <summary>1.Routing </summary>
+
+* Images shown below explain about routing in detail.
+
+![image](day7/Screenshot54.png)
+![image](day7/Screenshot55.png)
+![image](day7/Screenshot56.png)
+![image](day7/Screenshot57.png)
+![image](day7/Screenshot58.png)    
+</details>
+
+<details>
+    <summary>2.Design rule check</summary>
+
+* Images shown below explain about DRC in detail.
+
+![image](day7/Screenshot59.png)
+![image](day7/Screenshot60.png)
+![image](day7/Screenshot61.png)
+![image](day7/Screenshot62.png)
+![image](day7/Screenshot63.png)
+![image](day7/Screenshot64.png)
+![image](day7/Screenshot65.png)
+![image](day7/Screenshot66.png)
+
+</details>
+
+<details>
+    <summary>3.Power distribution network and routing</summary>
+
+</details>
+
+<details>
+    <summary>4.TritonRoute features</summary>
+
+    
+</details>
