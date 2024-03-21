@@ -1733,3 +1733,47 @@ replace_cell instance lib_cell
 </details>
 
 </details>
+
+<details>
+    <summary>3.Clock tree synthesis TritonCTS and signal integrity</summary>
+
+<details>
+    <summary>3a.Clock tree routing and buffering using H-tree algorithm</summary>
+
+* Below images Clock tree synthesis.
+
+![image](day7/Screenshot39.png)
+![image](day7/Screenshot40.png)
+![image](day7/Screenshot41.png)
+![image](day7/Screenshot42.png)
+![image](day7/Screenshot43.png)
+![image](day7/Screenshot44.png)
+
+    
+</details>
+
+<details>
+    <summary>3b.Cross talk and clock net shielding</summary>
+
+* Below images explain cross talk and clock net shielding
+
+![image](day7/Screenshot45.png)
+![image](day7/Screenshot46.png)
+![image](day7/Screenshot47.png)
+    
+</details>
+
+<details>
+    <summary>3c.Lab steps to run CTS using TritonCTS</summary>
+
+    
+</details>
+
+<details>
+    <summary>3d.Lab steps to verify CTS runs</summary>
+    
+</details>
+
+
+
+</details>
