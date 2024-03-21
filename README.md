@@ -1700,11 +1700,35 @@ run_synthesis
 <details>
     <summary>2d.Lab steps to optimize synthesis to reduce setup violations</summary>
 
+* I got tns=0,wns=0; there were no timing violations for me. But if we encounter timing violations then we do STA analysis in separate tool(in our case OpenSTA).
+* There are many ways to reduce slack . Following example is one of the ways.
+```bash
+set ::env(SYNTH_MAX_FANOUT) 4
+```
+
+* To see how many pins are driven by a cell, we use below command
+
+```bash
+report_net -connections <net name>
+```
 
 </details>
 
 <details>
     <summary>2e.Lab steps to do basic timing ECO</summary>
+
+* If a cell drives more cells than we can upsize that cell so that slack can be reduced.For upsizing we have to replace that cell with a more drive strength cell.
+
+**command**
+
+```bash
+replace_cell instance lib_cell
+```
+
+* for example **replace_cell _41882_ sky130_fd_sc_hd_buf_4**
+* To view reports whether the above command is executed or not, use this **report_checks -from _50144_ -to _50075_ -through _41882_**
+* This is what people do in the industry using commercial tools. We solve violations and generate a timing eco and give it to PnR .
+
     
 </details>
 
