@@ -1668,7 +1668,7 @@ detailed_placement
 tap_decap_or
 detailed_placement
 ```
-*  "openlane/scripts/tcl_commands/floorplan.tcl" file tells how floorplan takes place.
+*  "openlane/scripts/tcl_commands/floorplan.tcl" file explains about all the steps that are needed to perform floorplan.
   
 ![image](day7/Screenshotpl.png) 
 </details>
