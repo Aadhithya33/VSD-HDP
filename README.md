@@ -1798,11 +1798,18 @@ write_verilog /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/des
 <details>
     <summary>4a.Setup timing analysis using real clocks</summary>
 
+* Image shown below explains about setup timing analysis using real clocks
+
+![image](day7/Screenshot52.png)
 
 </details>
 
 <details>
     <summary>4b.Hold timing analysis using real clocks</summary>
+
+* Image shown below explains about hold timing analysis using real clocks
+
+![image](day7/Screenshot53.png)
 
     
 </details>
