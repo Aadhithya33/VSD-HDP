@@ -40,6 +40,8 @@ This repository contains all the necessary steps and files to implement the RTL-
 
 [Day 18-Pre-layout timing analysis and importance of good clock tree](#day-18)
 
+[Day 19-Final steps for RTL2GDS using tritonRoute and openSTA](#day-19)
+
 ## DAY 0
 Install [oracle VM virtual box](https://www.virtualbox.org/wiki/Downloads) and install ubuntu in oracle VM virtual box.
 If system has 16GB RAM and 512GB HDD then allocate 8GB RAM and 100 GB HDD for oracle VM virtual box.
@@ -1837,3 +1839,5 @@ report_checks -path_delay min_max -fields {slew trans net cap input_pin} -format
 
 
 </details>
+
+## DAY 19
