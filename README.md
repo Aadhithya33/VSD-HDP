@@ -1790,12 +1790,22 @@ write_verilog /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/des
 
     
 </details>
-
-<details>
-    <summary>3d.Lab steps to verify CTS runs</summary>
-    
 </details>
 
+<details>
+    <summary>4.Timing analysis with real clocks using openSTA</summary>
+
+<details>
+    <summary>4a.Setup timing analysis using real clocks</summary>
+
+
+</details>
+
+<details>
+    <summary>4b.Hold timing analysis using real clocks</summary>
+
+    
+</details>
 
 
 </details>
