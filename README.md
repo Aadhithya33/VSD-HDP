@@ -1745,6 +1745,7 @@ write_verilog /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/des
 <details>
     <summary>3.Clock tree synthesis TritonCTS and signal integrity</summary>
 
+
 <details>
     <summary>3a.Clock tree routing and buffering using H-tree algorithm</summary>
 
@@ -1773,6 +1774,19 @@ write_verilog /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/des
 
 <details>
     <summary>3c.Lab steps to run CTS using TritonCTS</summary>
+
+* To run cts use **run_cts** command.
+* After CTS a new file will be created in results/synthesis folder because netlist changes after **CTS**.
+* Below image shows that a new was created
+
+![image](day7/Screenshot48.png)
+
+* After CTS no slack violations were present.
+
+![image](day7/Screenshot49.png)
+![image](day7/Screenshot50.png)
+![image](day7/Screenshot51.png)
+
 
     
 </details>
