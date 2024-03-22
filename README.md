@@ -1857,9 +1857,21 @@ set ::env(CTS_CLK_BUFFER_LIST) [lreplace $::env(CTS_CLK_BUFFER_LIST) 0 0]
 sky130_fd_sc_hd__clkbuf_2 sky130_fd_sc_hd__clkbuf_4 sky130_fd_sc_hd__clkbuf_8
 ```
 
+* Commands to know the skew.
+
+```bash
+report_clock_skew -hold
+report_clock_skew -setup
+```
+
+* After executing above commands:
+![image](day7/Screenshot53b.png)
+
 * Layout after CTS looks like:
 
 ![image](day7/Screenshot53a.png)
+
+
     
 </details>
 
