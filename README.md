@@ -1933,6 +1933,10 @@ run_routing
 
 ![image](day7/Screenshot53d.png)
 
+* No timing violations
+
+![image](day7/Screenshot53g.png)
+
 * Layout after routing looks like:
 ![image](day7/Screenshot53e.png)
 ![image](day7/Screenshot53f.png)
