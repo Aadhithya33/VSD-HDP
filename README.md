@@ -1846,6 +1846,20 @@ set_propagated_clock [all_clocks]
 report_checks -path_delay min_max -fields {slew trans net cap input_pin} -format full_clock_expanded -digits 4
 ```
 
+* command to replace a clock buffer.
+
+```bash
+set ::env(CTS_CLK_BUFFER_LIST) [lreplace $::env(CTS_CLK_BUFFER_LIST) 0 0]
+```
+* After executing above command, you will see that sky130_fd_sc_hd__clkbuf_1 is removed
+
+```bash
+sky130_fd_sc_hd__clkbuf_2 sky130_fd_sc_hd__clkbuf_4 sky130_fd_sc_hd__clkbuf_8
+```
+
+* Layout after CTS looks like:
+
+![image](day7/Screenshot53a.png)
     
 </details>
 
