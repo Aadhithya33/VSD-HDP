@@ -1796,9 +1796,10 @@ write_verilog /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/des
 
 * After CTS no slack violations were present.
 
-![image](day7/Screenshot49.png)
-![image](day7/Screenshot50.png)
-![image](day7/Screenshot51.png)
+![image](day7/Screenshot49a.png)
+![image](day7/Screenshot50a.png)
+![image](day7/Screenshot51a.png)
+![image](day7/Screenshot52a.png)
 
 
     
