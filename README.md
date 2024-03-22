@@ -1924,6 +1924,19 @@ gen_pdn
 
 ## ROUTING
 
+* Command to run routing.
+
+```bash
+run_routing
+```
+* No DRC violations after detailed routing.
+
+![image](day7/Screenshot53d.png)
+
+* Layout after routing looks like:
+![image](day7/Screenshot53e.png)
+![image](day7/Screenshot53f.png)
+
 
 </details>
 
