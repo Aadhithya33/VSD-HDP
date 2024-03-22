@@ -1762,7 +1762,7 @@ write_verilog /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/des
 <details>
     <summary>3a.Clock tree routing and buffering using H-tree algorithm</summary>
 
-* Below images Clock tree synthesis.
+* Below images explain about Clock tree synthesis.
 
 ![image](day7/Screenshot39.png)
 ![image](day7/Screenshot40.png)
@@ -1910,6 +1910,20 @@ report_clock_skew -setup
 
 <details>
     <summary>3.Power distribution network and routing</summary>
+
+## POWER PLANNING
+
+* Image shown below explains how standard cells get power supply from power pads.
+![image](day7/Screenshot53c.png)
+
+* command to perfom power planning
+
+```bash
+gen_pdn
+```
+
+## ROUTING
+
 
 </details>
 
