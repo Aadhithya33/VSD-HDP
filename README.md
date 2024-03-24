@@ -1872,6 +1872,7 @@ report_clock_skew -setup
 ```
 
 * After executing above commands:
+
 ![image](day7/Screenshot53b.png)
 
 * Layout after CTS looks like:
