@@ -1586,6 +1586,13 @@ tar xfz drc_tests.tgz
 * DRC fix (poly.9)
 ![image](day7/Screenshot23.png)
 
+![image](day7/Screenshot23.png)
+
+![image](day7/Screenshot23.png)
+
+![image](day7/Screenshot23.png)
+
+
 </details>
 
 ## DAY 18
@@ -1946,8 +1953,3 @@ run_routing
 
 </details>
 
-<details>
-    <summary>4.TritonRoute features</summary>
-
-    
-</details>
