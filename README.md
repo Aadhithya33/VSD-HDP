@@ -42,6 +42,9 @@ This repository contains all the necessary steps and files to implement the RTL-
 
 [Day 19-Final steps for RTL2GDS using tritonRoute and openSTA](#day-19)
 
+[Day 20-Physical Design of RISCV](#day-20)
+
+
 ## DAY 0
 Install [oracle VM virtual box](https://www.virtualbox.org/wiki/Downloads) and install ubuntu in oracle VM virtual box.
 If system has 16GB RAM and 512GB HDD then allocate 8GB RAM and 100 GB HDD for oracle VM virtual box.
@@ -1953,4 +1956,7 @@ run_routing
 
 
 </details>
+
+
+## DAY 20
 
