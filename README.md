@@ -2233,6 +2233,32 @@ report_tns -digits {4} > tns.txt
 report_wns -digits {4} > wns.txt
 ```
 
+* Following file is the config.tcl file.
+
+```bash
+set ::env(DESIGN_NAME) {iiitb_rv32i}
+set ::env(VERILOG_FILES) [glob $::env(DESIGN_DIR)/src/*.v]
+set ::env(BASE_SDC_FILE) "./designs/iiitb_rv32i/src/iiitb_rv32i.sdc"
+set ::env(PNR_SDC_FILE) "./designs/iiitb_rv32i/src/iiitb_rv32i_PNR.sdc"
+set ::env(SIGNOFF_SDC_FILE) "./designs/iiitb_rv32i/src/iiitb_rv32i_PNR.sdc"
+set ::env(CLOCK_PORT) "clk"
+set ::env(CLOCK_PERIOD) "10.0"
+set ::env(CLOCK_NET)  $::env(CLOCK_PORT)
+set ::env(FP_PDN_MULTILAYER) {1}
+set ::env(QUIT_ON_SYNTH_CHECKS) 0
+set ::env(SYNTH_STRATEGY) "DELAY 2"
+set ::env(SYNTH_SIZING) 1
+set ::env(MAX_FANOUT_CONSTRAINT) 4
+set tech_specific_config "$::env(DESIGN_DIR)/$::env(PDK)_$::env(STD_CELL_LIBRARY)_config.tcl"
+if { [file exists $tech_specific_config] == 1 } {
+    source $tech_specific_config
+}
+```
+
+
+
+
+
 </details>
 
 
