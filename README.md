@@ -2233,3 +2233,24 @@ report_wns -digits {4} > wns.txt
 
 </details>
 
+
+
+
+
+
+
+
+
+
+
+
+<details>
+    <summary>9.Layout of RISCV </summary>
+
+* No DRC and LVS violations.
+![image](day7/Screenshot77.png)
+
+* Zoomed version of the layout
+![image](day7/Screenshot78.png)
+</details>
+
