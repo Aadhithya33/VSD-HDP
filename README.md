@@ -2112,8 +2112,7 @@ make test
 <details>
      <summary>6.Comparison between all stages</summary>
 
-* Graphs
-
+* I met 100Mhz frequency of operation for RISCV design . Few corners did not meet the specifications because there were issues with corners itself.
 
 ![image](day7/Screenshot76a.png)
 
@@ -2248,7 +2247,7 @@ report_wns -digits {4} > wns.txt
 
 
 <details>
-    <summary>9.Layout of RISCV </summary>
+    <summary>8.Layout of RISCV </summary>
 
 * command to view layout in magic
 
