@@ -1984,7 +1984,7 @@ make test
  </details>
 
  <details>
-     <summary>2.Automated flow of entire design(RISCV)</summary>
+     <summary>2.OpenLane log(non-interactive mode)of the design(RISCV)</summary>
 
 ```bash
 
