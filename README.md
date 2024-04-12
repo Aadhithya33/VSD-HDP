@@ -2064,3 +2064,176 @@ make test
 
 ```
  </details>
+
+ <details>
+     <summary>3.Comparison between Post-synthesis and post-placement STA checks</summary>
+
+* Table
+
+![image](day7/Screenshot70.png)
+
+* Graph
+
+![image](day7/Screenshot71.png)
+
+
+    
+    
+ </details>
+ 
+ <details>
+     <summary>4.Comparison between Post-placement and post-cts STA checks</summary>
+
+* Table
+
+![image](day7/Screenshot72.png)
+
+* Graph
+
+![image](day7/Screenshot73.png)
+    
+    
+ </details>
+
+ <details>
+     <summary>5.Comparison between Post-cts and post-layout STA checks</summary>
+
+* Table
+
+![image](day7/Screenshot74.png)
+
+* Graph
+
+![image](day7/Screenshot75.png)
+    
+    
+ </details>
+
+<details>
+     <summary>6.Comparison between all stages</summary>
+
+* Table
+
+![image](day7/Screenshot76.png)
+
+* Graph
+
+![image](day7/Screenshot77.png)
+    
+    
+ </details>
+
+<details>
+    <summary>7.tcl files of various stages</summary>
+
+* This tcl file is used for post-synthesis STA checks.
+
+```bash
+#read_liberty sky130_fd_sc_hd__tt_025C_1v80.lib
+#read_liberty sky130_fd_sc_hd__ss_n40C_1v76.lib
+#read_liberty sky130_fd_sc_hd__ss_n40C_1v44.lib
+#read_liberty sky130_fd_sc_hd__ss_n40C_1v40.lib
+#read_liberty sky130_fd_sc_hd__ss_n40C_1v35.lib
+#read_liberty sky130_fd_sc_hd__ss_n40C_1v28.lib
+#read_liberty sky130_fd_sc_hd__ss_100C_1v60.lib
+#read_liberty sky130_fd_sc_hd__ss_100C_1v40.lib
+#read_liberty sky130_fd_sc_hd__ff_n40C_1v76.lib
+#read_liberty sky130_fd_sc_hd__ff_n40C_1v65.lib
+#read_liberty sky130_fd_sc_hd__ff_n40C_1v56.lib
+#read_liberty sky130_fd_sc_hd__ff_100C_1v95.lib
+read_liberty sky130_fd_sc_hd__ff_100C_1v65.lib
+
+read_verilog /home/aadhithya33/OpenLane/designs/iiitb_rv32i/runs/RUN_2024.04.11_01.34.39/results/synthesis/iiitb_rv32i.v
+link_design iiitb_rv32i
+current_design
+read_sdc /home/aadhithya33/OpenLane/designs/iiitb_rv32i/src/iiitb_rv32i.sdc
+report_checks -path_delay min_max -fields {nets cap slew input_pins} -digits {4} > min-max.txt
+report_worst_slack -max -digits {4} > worst-max.txt
+report_worst_slack -min -digits {4} > worst-min.txt
+report_tns -digits {4} > tns.txt
+report_wns -digits {4} > wns.txt
+```
+
+* This tcl file is used for post-placement STA checks
+
+```bash
+#read_liberty sky130_fd_sc_hd__tt_025C_1v80.lib
+#read_liberty sky130_fd_sc_hd__ss_n40C_1v76.lib
+#read_liberty sky130_fd_sc_hd__ss_n40C_1v44.lib
+#read_liberty sky130_fd_sc_hd__ss_n40C_1v40.lib
+#read_liberty sky130_fd_sc_hd__ss_n40C_1v35.lib
+#read_liberty sky130_fd_sc_hd__ss_n40C_1v28.lib
+#read_liberty sky130_fd_sc_hd__ss_100C_1v60.lib
+#read_liberty sky130_fd_sc_hd__ss_100C_1v40.lib
+#read_liberty sky130_fd_sc_hd__ff_n40C_1v76.lib
+#read_liberty sky130_fd_sc_hd__ff_n40C_1v65.lib
+#read_liberty sky130_fd_sc_hd__ff_n40C_1v56.lib
+#read_liberty sky130_fd_sc_hd__ff_100C_1v95.lib
+read_liberty sky130_fd_sc_hd__ff_100C_1v65.lib
+
+read_verilog /home/aadhithya33/OpenLane/designs/iiitb_rv32i/runs/RUN_2024.04.11_01.34.39/results/placement/iiitb_rv32i.pnl.v
+link_design iiitb_rv32i
+current_design
+read_sdc /home/aadhithya33/OpenLane/designs/iiitb_rv32i/src/iiitb_rv32i.sdc
+report_checks -path_delay min_max -fields {nets cap slew input_pins} -digits {4} > min-max.txt
+report_worst_slack -max -digits {4} > worst-max.txt
+report_worst_slack -min -digits {4} > worst-min.txt
+report_tns -digits {4} > tns.txt
+report_wns -digits {4} > wns.txt
+```
+
+* This tcl file is used for post-cts STA checks
+
+```bash
+#read_liberty sky130_fd_sc_hd__tt_025C_1v80.lib
+#read_liberty sky130_fd_sc_hd__ss_n40C_1v76.lib
+#read_liberty sky130_fd_sc_hd__ss_n40C_1v44.lib
+#read_liberty sky130_fd_sc_hd__ss_n40C_1v40.lib
+#read_liberty sky130_fd_sc_hd__ss_n40C_1v35.lib
+#read_liberty sky130_fd_sc_hd__ss_n40C_1v28.lib
+#read_liberty sky130_fd_sc_hd__ss_100C_1v60.lib
+#read_liberty sky130_fd_sc_hd__ss_100C_1v40.lib
+#read_liberty sky130_fd_sc_hd__ff_n40C_1v76.lib
+#read_liberty sky130_fd_sc_hd__ff_n40C_1v65.lib
+#read_liberty sky130_fd_sc_hd__ff_n40C_1v56.lib
+#read_liberty sky130_fd_sc_hd__ff_100C_1v95.lib
+read_liberty sky130_fd_sc_hd__ff_100C_1v65.lib
+
+read_db /home/aadhithya33/OpenLane/designs/iiitb_rv32i/runs/RUN_2024.04.11_01.34.39/results/cts/iiitb_rv32i.odb 
+current_design
+read_sdc /home/aadhithya33/OpenLane/designs/iiitb_rv32i/src/iiitb_rv32i_PNR.sdc
+report_worst_slack -min -digits {4} > worst-min.txt
+report_wns -digits {4} > wns.txt
+```
+
+* This tcl file is used for post-layout STA checks
+
+```bash
+#read_liberty sky130_fd_sc_hd__tt_025C_1v80.lib
+#read_liberty sky130_fd_sc_hd__ss_n40C_1v76.lib
+#read_liberty sky130_fd_sc_hd__ss_n40C_1v44.lib
+#read_liberty sky130_fd_sc_hd__ss_n40C_1v40.lib
+#read_liberty sky130_fd_sc_hd__ss_n40C_1v35.lib
+#read_liberty sky130_fd_sc_hd__ss_n40C_1v28.lib
+#read_liberty sky130_fd_sc_hd__ss_100C_1v60.lib
+#read_liberty sky130_fd_sc_hd__ss_100C_1v40.lib
+#read_liberty sky130_fd_sc_hd__ff_n40C_1v76.lib
+#read_liberty sky130_fd_sc_hd__ff_n40C_1v65.lib
+#read_liberty sky130_fd_sc_hd__ff_n40C_1v56.lib
+#read_liberty sky130_fd_sc_hd__ff_100C_1v95.lib
+read_liberty sky130_fd_sc_hd__ff_100C_1v65.lib
+
+read_verilog /home/aadhithya33/OpenLane/designs/iiitb_rv32i/runs/RUN_2024.04.11_01.34.39/results/routing/iiitb_rv32i.pnl.v
+link_design iiitb_rv32i
+current_design
+read_spef /home/aadhithya33/OpenLane/designs/iiitb_rv32i/runs/RUN_2024.04.11_01.34.39/results/final/spef/iiitb_rv32i.spef
+read_sdc /home/aadhithya33/OpenLane/designs/iiitb_rv32i/src/iiitb_rv32i_PNR.sdc
+report_checks -path_delay min_max -fields {nets cap slew input_pins} -digits {4} > min-max.txt
+report_worst_slack -max -digits {4} > worst-max.txt
+report_worst_slack -min -digits {4} > worst-min.txt
+report_tns -digits {4} > tns.txt
+report_wns -digits {4} > wns.txt
+```
+
+</details>
+
