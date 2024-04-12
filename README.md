@@ -2247,6 +2247,12 @@ report_wns -digits {4} > wns.txt
 <details>
     <summary>9.Layout of RISCV </summary>
 
+* command to view layout in magic
+
+```bash
+magic -T /home/aadhithya33/.volare/sky130A/libs.tech/magic/sky130A.tech lef read /home/aadhithya33/OpenLane/designs/iiitb_rv32i/runs/RUN_2024.04.11_01.34.39/tmp/merged.nom.lef def read /home/aadhithya33/OpenLane/designs/iiitb_rv32i/runs/RUN_2024.04.11_01.34.39/results/final/def/iiitb_rv32i.def &
+```
+
 * No DRC and LVS violations.
 ![image](day7/Screenshot77.png)
 
