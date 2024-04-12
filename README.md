@@ -2112,7 +2112,10 @@ make test
 <details>
      <summary>6.Comparison between all stages</summary>
 
-* Graph
+* Graphs
+
+
+![image](day7/Screenshot76a.png)
 
 ![image](day7/Screenshot76.png)
     
