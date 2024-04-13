@@ -1571,7 +1571,7 @@ ext2spice
 
 ![image](day7/Screenshot21.png)
  
-</details>
+
 
     
 
@@ -1595,6 +1595,7 @@ tar xfz drc_tests.tgz
 
 ![image](day7/Screenshot23.png)
 
+</details>
 
 
 ## DAY 18
