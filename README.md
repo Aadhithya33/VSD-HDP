@@ -1572,8 +1572,8 @@ ext2spice
 ![image](day7/Screenshot21.png)
  
 </details>
-<details>
-    <summary>6.Lab on DRC(Design rule checking)</summary>
+
+    
 
 * Commands to get mag files.
 
@@ -1596,7 +1596,6 @@ tar xfz drc_tests.tgz
 ![image](day7/Screenshot23.png)
 
 
-</details>
 
 ## DAY 18
 
