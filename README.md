@@ -1,4 +1,7 @@
 # VSD-Hardware Design program
+
+![image](day7/projecthdp.jpeg)
+
 This repository contains all the necessary steps and files to implement the RTL-to-GDSII flow.
 
 
